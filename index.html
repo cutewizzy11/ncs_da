@@ -84,6 +84,32 @@
               <canvas id="overlay"></canvas>
             </div>
             <div id="prompt" class="prompt">Initializing camera…</div>
+            <div class="actions" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
+              <button id="btn-recalibrate-fr" class="btn" title="Re-run baseline calibration">Re-Calibrate</button>
+              <button id="btn-manual-verify" class="btn danger" title="Mark verification complete if detection struggles">Manual Verify</button>
+              <button id="btn-toggle-diag" class="btn" title="Show/Hide diagnostics">Diagnostics</button>
+            </div>
+            <div id="diag-panel" class="card" style="display:none; margin-top:10px;">
+              <div class="tiny muted">Diagnostics (live)</div>
+              <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr)); gap:8px; margin-top:6px;">
+                <div class="tiny">faces: <span id="diag-faces">0</span></div>
+                <div class="tiny">motion: <span id="diag-motion">0</span></div>
+                <div class="tiny">EAR: <span id="diag-ear">0</span></div>
+                <div class="tiny">MAR: <span id="diag-mar">0</span></div>
+                <div class="tiny">yaw: <span id="diag-yaw">0</span></div>
+                <div class="tiny">pitch: <span id="diag-pitch">0</span></div>
+                <div class="tiny">roll: <span id="diag-roll">0</span></div>
+              </div>
+              <div style="margin-top:10px;">
+                <label class="tiny">Blink threshold (EAR) <input id="th-blink" type="range" min="0.10" max="0.40" step="0.01" style="width:60%"> <span id="th-blink-val" class="tiny"></span></label>
+                <br/>
+                <label class="tiny">Mouth threshold (MAR) <input id="th-mouth" type="range" min="0.20" max="0.60" step="0.01" style="width:60%"> <span id="th-mouth-val" class="tiny"></span></label>
+                <br/>
+                <label class="tiny">Yaw threshold <input id="th-yaw" type="range" min="0.02" max="0.20" step="0.01" style="width:60%"> <span id="th-yaw-val" class="tiny"></span></label>
+                <br/>
+                <label class="tiny">Hit frames <input id="th-frames" type="range" min="2" max="8" step="1" style="width:60%"> <span id="th-frames-val" class="tiny"></span></label>
+              </div>
+            </div>
             <ul id="fr-steps" class="checklist">
               <li data-step="blink">Blink</li>
               <li data-step="left">Turn head left</li>
@@ -121,7 +147,10 @@
           </div>
 
           <div class="card">
-            <button id="btn-begin-test" class="btn primary" disabled>Begin Test</button>
+            <div class="actions" style="display:flex; gap:8px; flex-wrap:wrap;">
+              <button id="btn-begin-test" class="btn primary" disabled>Begin Test</button>
+              <button id="btn-skip-fr" class="btn" title="Use only if verification is not working on your device">Skip Verification</button>
+            </div>
           </div>
         </div>
       </div>

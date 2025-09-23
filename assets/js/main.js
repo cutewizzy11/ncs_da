@@ -89,6 +89,94 @@ function formatTime(secs) {
     NCSCam.startFRFlow().then(() => {
       document.getElementById('btn-begin-test').disabled = false;
     });
+
+    // Allow skipping FR if user's device has trouble
+    const btnSkip = document.getElementById('btn-skip-fr');
+    if (btnSkip) {
+      btnSkip.onclick = async () => { await goToReview(); };
+    }
+
+    // Re-Calibrate now
+    const btnRecal = document.getElementById('btn-recalibrate-fr');
+    if (btnRecal) btnRecal.onclick = async () => { await NCSCam.anchorBaseline(); };
+
+    // Manual Verify
+    const btnManual = document.getElementById('btn-manual-verify');
+    if (btnManual) btnManual.onclick = async () => {
+      // mark all steps done and proceed
+      document.querySelectorAll('#fr-steps li').forEach(li => li.classList.add('done'));
+      const prompt = document.getElementById('prompt');
+      if (prompt) prompt.textContent = 'Verification complete (manual)';
+      await NCSCam.anchorBaseline();
+      document.getElementById('btn-begin-test').disabled = false;
+    };
+
+    // Diagnostics toggle
+    const btnDiag = document.getElementById('btn-toggle-diag');
+    const diagPanel = document.getElementById('diag-panel');
+    if (btnDiag && diagPanel) {
+      btnDiag.onclick = () => { diagPanel.style.display = (diagPanel.style.display === 'none' ? 'block' : 'none'); };
+    }
+
+    // Bind live metrics and sliders
+    const diag = {
+      faces: document.getElementById('diag-faces'),
+      motion: document.getElementById('diag-motion'),
+      ear: document.getElementById('diag-ear'),
+      mar: document.getElementById('diag-mar'),
+      yaw: document.getElementById('diag-yaw'),
+      pitch: document.getElementById('diag-pitch'),
+      roll: document.getElementById('diag-roll'),
+    };
+    const sliders = {
+      blink: document.getElementById('th-blink'),
+      mouth: document.getElementById('th-mouth'),
+      yaw: document.getElementById('th-yaw'),
+      frames: document.getElementById('th-frames'),
+    };
+    const labels = {
+      blink: document.getElementById('th-blink-val'),
+      mouth: document.getElementById('th-mouth-val'),
+      yaw: document.getElementById('th-yaw-val'),
+      frames: document.getElementById('th-frames-val'),
+    };
+
+    // Init from localStorage
+    const cfg = JSON.parse(localStorage.getItem('ncs_fr_thresholds') || '{}');
+    sliders.blink && (sliders.blink.value = (cfg.blink ?? 0.22));
+    sliders.mouth && (sliders.mouth.value = (cfg.mouth ?? 0.30));
+    sliders.yaw && (sliders.yaw.value = (cfg.yaw ?? 0.06));
+    sliders.frames && (sliders.frames.value = (cfg.frames ?? 3));
+    const syncLabels = () => {
+      if (labels.blink && sliders.blink) labels.blink.textContent = Number(sliders.blink.value).toFixed(2);
+      if (labels.mouth && sliders.mouth) labels.mouth.textContent = Number(sliders.mouth.value).toFixed(2);
+      if (labels.yaw && sliders.yaw) labels.yaw.textContent = Number(sliders.yaw.value).toFixed(2);
+      if (labels.frames && sliders.frames) labels.frames.textContent = String(sliders.frames.value);
+    };
+    syncLabels();
+    const saveCfg = () => {
+      const newCfg = {
+        blink: Number(sliders.blink?.value || 0.22),
+        mouth: Number(sliders.mouth?.value || 0.30),
+        yaw: Number(sliders.yaw?.value || 0.06),
+        frames: Number(sliders.frames?.value || 3),
+      };
+      localStorage.setItem('ncs_fr_thresholds', JSON.stringify(newCfg));
+      // Signal face_motion to pick updated thresholds on next frame
+      window.NCS_FR_THRESH = newCfg;
+      syncLabels();
+    };
+    sliders.blink && (sliders.blink.oninput = saveCfg);
+    sliders.mouth && (sliders.mouth.oninput = saveCfg);
+    sliders.yaw && (sliders.yaw.oninput = saveCfg);
+    sliders.frames && (sliders.frames.oninput = saveCfg);
+
+    // Live metrics updates
+    if (NCSCam && NCSCam.onMotionUpdate) {
+      NCSCam.onMotionUpdate(score => {
+        if (diag.motion) diag.motion.textContent = score.toFixed(0);
+      });
+    }
   });
 })();
 

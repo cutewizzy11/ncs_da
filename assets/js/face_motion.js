@@ -15,6 +15,7 @@ const CameraState = {
   faceCount: 0,
   pose: { yaw: 0, pitch: 0, roll: 0, noseX: 0, noseY: 0, faceWidth: 0 },
   baseline: null,
+  metrics: { ear: 0, mar: 0, yaw: 0, pitch: 0, roll: 0 },
 };
 
 function onMotionUpdate(cb) { CameraState.listeners.add(cb); return () => CameraState.listeners.delete(cb); }
@@ -199,6 +200,24 @@ function onFaceResults(results) {
   const lm = results.multiFaceLandmarks[0];
   CameraState.lastLandmarks = lm;
 
+  // Draw landmarks overlay for visual confirmation
+  try {
+    const { canvasEl: c, ctx } = CameraState;
+    if (c && ctx) {
+      // draw subtle overlay points
+      ctx.save();
+      ctx.fillStyle = 'rgba(16, 185, 129, 0.8)'; // emerald dots
+      const w = c.width, h = c.height;
+      for (let i = 0; i < lm.length; i += 5) { // sample every 5th point for performance
+        const p = lm[i];
+        ctx.beginPath();
+        ctx.arc(p.x * w, p.y * h, 1.6, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.restore();
+    }
+  } catch {}
+
   // Compute helper distances
   const d = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
   const idx = (i) => lm[i];
@@ -232,12 +251,17 @@ function onFaceResults(results) {
     noseY: nose.y,
     faceWidth,
   };
+  CameraState.metrics = { ear, mar, yaw, pitch, roll };
 
-  // Thresholds and counters (relaxed for broader device compatibility)
-  const BLINK_T = 0.22; // higher => easier to detect blink
-  const MOUTH_T = 0.30; // lower => easier to detect mouth open
-  const YAW_LEFT_T = -0.06;
-  const YAW_RIGHT_T = 0.06;
+  // Thresholds and counters (read from UI if provided)
+  const cfg = window.NCS_FR_THRESH || (function(){
+    try { return JSON.parse(localStorage.getItem('ncs_fr_thresholds')||'{}'); } catch { return {}; }
+  })();
+  const BLINK_T = Number(cfg.blink ?? 0.22);
+  const MOUTH_T = Number(cfg.mouth ?? 0.30);
+  const YAW_T = Number(cfg.yaw ?? 0.06);
+  const YAW_LEFT_T = -Math.abs(YAW_T);
+  const YAW_RIGHT_T = Math.abs(YAW_T);
 
   const inc = (k, cond) => { FRState.counters[k] = cond ? Math.min(FRState.counters[k] + 1, 999) : 0; };
   inc('blink', ear < BLINK_T);
@@ -251,7 +275,7 @@ function onFaceResults(results) {
 
   setPrompt(step.text);
 
-  const HIT_FRAMES = 3; // fewer frames needed to register action
+  const HIT_FRAMES = Number(cfg.frames ?? 3); // frames needed to register action
   if (FRState.counters[step.key] >= HIT_FRAMES) {
     markStepDone(step.key);
     FRState.currentIdx++;
