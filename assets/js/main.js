@@ -59,8 +59,9 @@ function formatTime(secs) {
     const motionBar = document.getElementById('motion-bar');
     const motionStat = document.getElementById('motion-status');
     const debugEl = document.getElementById('debug-readout');
-    const btnRecal = document.getElementById('btn-recalibrate');
-    btnRecal.addEventListener('click', () => NCSCam.anchorBaseline());
+    // Right-panel recalibrate button
+    const btnRecalSidebar = document.getElementById('btn-recalibrate');
+    if (btnRecalSidebar) btnRecalSidebar.addEventListener('click', () => NCSCam.anchorBaseline());
     NCSCam.onMotionUpdate(score => {
       const pct = Math.min(100, Math.floor((score / 300) * 100));
       motionBar.style.width = `${pct}%`;
@@ -96,9 +97,9 @@ function formatTime(secs) {
       btnSkip.onclick = async () => { await goToReview(); };
     }
 
-    // Re-Calibrate now
-    const btnRecal = document.getElementById('btn-recalibrate-fr');
-    if (btnRecal) btnRecal.onclick = async () => { await NCSCam.anchorBaseline(); };
+    // Re-Calibrate (primary control near prompt)
+    const btnRecalFR = document.getElementById('btn-recalibrate-fr');
+    if (btnRecalFR) btnRecalFR.onclick = async () => { await NCSCam.anchorBaseline(); };
 
     // Manual Verify
     const btnManual = document.getElementById('btn-manual-verify');
