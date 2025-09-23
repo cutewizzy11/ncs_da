@@ -1,0 +1,5 @@
+Source PDFs: ['questions\\Q_A\\Custom Service Past Questions 2.pdf']
+Output JSON: questions\set3.json
+Total questions: 28
+Issues:
+ - None found

@@ -1,0 +1,16 @@
+{
+  "name": "ncs",
+  "version": "1.0.0",
+  "description": "A minimal web prototype for a Nigeria Customs Service-style CBT practice test with onboarding, a basic facial verification flow, motion monitoring, and a 60-minute test UI. Questions are loaded from JSON files in the `questions/` folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "netlify-cli": "^23.7.0"
+  }
+}

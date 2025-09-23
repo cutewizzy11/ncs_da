@@ -1,0 +1,2637 @@
+{
+  "meta": {
+    "set": "set4",
+    "title": "Set 4",
+    "durationMinutes": 60
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "MATHEMATICS",
+      "text": "A number of cats got together and decided to kill between them 999919 mice. Every cat killed an equal number of mice. Each cat killed more mice than there were cats. How many cats do you think there were?",
+      "options": [
+        "991",
+        "1009",
+        "997",
+        "999"
+      ],
+      "answer": null
+    },
+    {
+      "id": 2,
+      "subject": "MATHEMATICS",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as international English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. One characteristic of a dialect as mentioned in the passage is ______.",
+      "options": [
+        "informality",
+        "possession of various forms",
+        "distinction from British English",
+        "restricted area of usage"
+      ],
+      "answer": null
+    },
+    {
+      "id": 3,
+      "subject": "MATHEMATICS",
+      "text": "Find the smallest 8-digit number which gives 15 as a remainder when divided by 38, 22 and 16.",
+      "options": [
+        "10002004",
+        "10002015",
+        "10001919",
+        "10000015"
+      ],
+      "answer": null
+    },
+    {
+      "id": 4,
+      "subject": "MATHEMATICS",
+      "text": "As the stranger approached, Shola noticed that he was handsome and her excitement increased. It was of such a man she had dreamt. He had a fine, arrogant carriage, like a soldier or someone in authority. When he reached the end of the pier, he addressed them in a rich, deep voice that disturbed her as the voluptuous rising of the tide had done. 'You're Tunde Onu, I'm told,' he said to her father. 'That's right,' said her father. 'The bus conductor told me you take people to the islands,' the man continued.' I'd like to go there if you can take me.' Her father examined the man from head to foot, shrewdly measuring his capacity to pay. Then he said: 'When were you thinking of going?' 'Right away.' 'That's a different story, for my boatman is gone to Badagry and won't be back before nightfall. 'Oh! said the stranger,' That's too bad. You couldn't get someone else instead of him?' 'I would have to think hard', he said gloomily,' for it's not everyone that would do for the job of going with me beyond the bay to the islands at this time of the year.' Shola understood her father's manoeuvre and felt ashamed. Which of the following is true of the passage?",
+      "options": [
+        "The stranger could not afford to miss the boat ride because he had come from a",
+        "Though the stranger had a rich deep voice, Shola's father was more outspoken",
+        "Shola and her father were idle when the stranger approached them.",
+        "Shola's father sized the stranger's capability to pay."
+      ],
+      "answer": null
+    },
+    {
+      "id": 5,
+      "subject": "MATHEMATICS",
+      "text": "The major advantage of the secret ballot is that",
+      "options": [
+        "it is faster than other systems",
+        "nobody can be prevented from voting",
+        "it ensures the anonymity of each voter",
+        "losers can ask for another secret voter"
+      ],
+      "answer": null
+    },
+    {
+      "id": 6,
+      "subject": "MATHEMATICS",
+      "text": "In school there are some bicycles and 4 wheeler wagons. There are 18 students each own either a bicycle or a wagon. One Tuesday there are 58 wheels in the campus. How many bicycles are there?",
+      "options": [
+        "10",
+        "9",
+        "7",
+        "12"
+      ],
+      "answer": null
+    },
+    {
+      "id": 7,
+      "subject": "ENGLISH",
+      "text": "This passage sums up the two problems peculiar to the book trade which make it different from any other trade - the problem of selection and the problem of stocking. How is the book seller to tell what, in an enormous output, will prove saleable, before the full weight of unsold items affects the balance of his business, and how is he, at the same time, to hold a stock large enough to enable the public to choose freely? He may seek to escape from this dilemma by becoming the passive sales representative of large publishing houses or distribution networks, but he is then no longer a book seller. He may take refuge in the sale of safe items to a restricted circle of customers, but he hereby cuts himself off from all that is vital in his trade and dooms himself to mediocrity and stagnation. On the other hand, he may protect his business from the danger of idle stock by speculating on the latest publications, but this is a dangerous game in that it implies a constantly changing clientele: readers remain faithful to their own discoveries and failure to follow up a book, an author or a type of literature means dismissing the public responsible for their success. This brings us back to the fact that books are undefinable. The story is told of a certain country with a great many generals where it was decided to present a rare and valuable edition of an old book to a general about to retire. The old soldier looked at the volume and remarked, 'A book? What's the point? I've already got one!' How many solutions to the bookseller's problems are offered in this passage?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": null
+    },
+    {
+      "id": 8,
+      "subject": "ENGLISH",
+      "text": "An unbiased die is tossed. find the probability of getting a multiple of 3",
+      "options": [
+        "½",
+        "1/3",
+        "¼",
+        "1/6"
+      ],
+      "answer": null
+    },
+    {
+      "id": 9,
+      "subject": "ENGLISH",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as international English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. According to the author, Nigerian, American, Irish and British English can be regarded as ______.",
+      "options": [
+        "registers",
+        "standards",
+        "styles",
+        "languages"
+      ],
+      "answer": null
+    },
+    {
+      "id": 10,
+      "subject": "ENGLISH",
+      "text": "Which of these constitution recognized local government as the third tier of government",
+      "options": [
+        "The 1946 Constitution",
+        "The 1960 constitution",
+        "The 1963 constitution",
+        "the 1979 constitution"
+      ],
+      "answer": null
+    },
+    {
+      "id": 11,
+      "subject": "ENGLISH",
+      "text": "Find the value of (598+194)2−(598−194)2598×194",
+      "options": [
+        "404",
+        "4",
+        "792",
+        "312"
+      ],
+      "answer": null
+    },
+    {
+      "id": 12,
+      "subject": "ENGLISH",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as international English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. 18 According to the author, Nigerian, American, Irish and British English can be regarded as ______.",
+      "options": [
+        "registers",
+        "standards",
+        "styles",
+        "languages"
+      ],
+      "answer": null
+    },
+    {
+      "id": 13,
+      "subject": "ENGLISH",
+      "text": "In a flight of 600 km, an aircraft was slowed down due to bad weather. Its average speed for the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. The duration of the flight is:",
+      "options": [
+        "1 hour",
+        "2 hours",
+        "3 hours",
+        "4 hours"
+      ],
+      "answer": null
+    },
+    {
+      "id": 14,
+      "subject": "ENGLISH",
+      "text": "As the stranger approached, Shola noticed that he was handsome and her excitement increased. It was of such a man she had dreamt. He had a fine, arrogant carriage, like a soldier or someone in authority. When he reached the end of the pier, he addressed them in a rich, deep voice that disturbed her as the voluptuous rising of the tide had done. 'You're Tunde Onu, I'm told,' he said to her father. 'That's right,' said her father. 'The bus conductor told me you take people to the island', the man continued. 'I'd like to go there if you can take me.' Her father examined the man from head to foot, shrewdly measuring his capacity to pay. Then he said, 'When were you thinking of going?' 'Right away.' 'That's a different story, for my boatman has gone to Badagry and won't be back before nightfall'. 'Oh!', said the stranger, 'That's too bad. You couldn't get someone else instead of him?' 'I would have to think hard', he said gloomily, 'for it's not everyone that would do for the job of going with me beyond the bay to the island at this time of the year.' Shola understood her father's manoeuvre and felt ashamed. How would you describe Shola's father?",
+      "options": [
+        "A greedy boat man.",
+        "An energetic but good-for-nothing man.",
+        "A loving father who wants to safeguard the interest of his daughter.",
+        "A talkative fool."
+      ],
+      "answer": null
+    },
+    {
+      "id": 15,
+      "subject": "CURRENT AFFAIRS",
+      "text": "In a one party state",
+      "options": [
+        "there are no free citizens",
+        "the communist party is the only legal party",
+        "the ruling party is the only legal party",
+        "elections to be legislature are held at the party’s conferences"
+      ],
+      "answer": null
+    },
+    {
+      "id": 16,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Evaluate: 986 × 237 + 986 × 863",
+      "options": [
+        "1084600",
+        "1084800",
+        "986000",
+        "986860"
+      ],
+      "answer": null
+    },
+    {
+      "id": 17,
+      "subject": "CURRENT AFFAIRS",
+      "text": "As the stranger approached, Shola noticed that he was handsome and her excitement increased. It was of such a man she had dreamt. He had a fine, arrogant carriage, like a soldier or someone in authority. When he reached the end of the pier, he addressed them in a rich, deep voice that disturbed her as the voluptuous rising of the tide had done. 'You're Tunde Onu, I'm told,' he said to her father. 82 'That's right,' said her father. 'The bus conductor told me you take people to the islands,' the man continued.' I'd like to go there if you can take me.' Her father examined the man from head to foot, shrewdly measuring his capacity to pay. Then he said: 'When were you thinking of going?' 'Right away.' 'That's a different story, for my boatman is gone to Badagry and won't be back before nightfall. 'Oh! Said the stranger,' that’s too bad. You couldn't get someone else instead of him?' 'I would have to think hard', he said gloomily,' for it's not everyone that would do for the job of going with me beyond the bay to the islands at this time of the year.' Shola understood her father's manoeuvre and felt ashamed. Which of the following is NOT true of the passage?",
+      "options": [
+        "Shola did not approve of her father's behaviour towards the stranger.",
+        "Shola's father could row the stranger to the island alone if he so wished.",
+        "Shola's father exaggerated the difficulties in order to raise his fee.",
+        "Tunde Onu's boatman is the only man who knows how to sail beyond the bay to"
+      ],
+      "answer": null
+    },
+    {
+      "id": 18,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Capacity of a cylindrical vessel is 25,872 cm3. If the height of the cylinder is 200% more than the radius of its base, what is the area of the base in square cm?",
+      "options": [
+        "336 cm2",
+        "1232 cm2",
+        "616 cm2",
+        "308 cm2"
+      ],
+      "answer": null
+    },
+    {
+      "id": 19,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as international English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. According to the passage, International English is _______.",
+      "options": [
+        "a kind of arbitrary classification",
+        "an imaginary classification",
+        "an informal standard",
+        "a recognised formal standard"
+      ],
+      "answer": null
+    },
+    {
+      "id": 20,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A condition for judicial independence is the appointment of judges by the",
+      "options": [
+        "Civil service commission",
+        "Judicial service Commission",
+        "Low Review Commission",
+        "The 1979 constitution"
+      ],
+      "answer": null
+    },
+    {
+      "id": 21,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A rectangular plate with length 8 inches, breadth 11 inches and thickness 2 inches is available. What is the length of the circular rod with diameter 10 inches and equal to the volume of the rectangular plate?",
+      "options": [
+        "2.24 inches",
+        "3.5 inches",
+        "4.25 inches",
+        "4.48 inches"
+      ],
+      "answer": null
+    },
+    {
+      "id": 22,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as international English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. According to the passage, International English is _______.",
+      "options": [
+        "a kind of arbitrary classification",
+        "an imaginary classification",
+        "an informal standard",
+        "a recognised formal standard"
+      ],
+      "answer": null
+    },
+    {
+      "id": 23,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What Year was Nigerian Customs Service founded",
+      "options": [
+        "1880",
+        "1990",
+        "1891",
+        "2014"
+      ],
+      "answer": null
+    },
+    {
+      "id": 24,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Water flows into a tank 200 m × 150 m through a rectangular pipe of 1.5m × 1.25 m @ 20 kmph. In what time (in minutes) will the water rise by 2 metres?",
+      "options": [
+        "48 min",
+        "96 min",
+        "108 min",
+        "36 min"
+      ],
+      "answer": null
+    },
+    {
+      "id": 25,
+      "subject": "CURRENT AFFAIRS",
+      "text": "As the stranger approached, Shola noticed that he was handsome and her excitement increased. It was of such a man she had dreamt. He had a fine, arrogant carriage, like a soldier or someone in authority. When he reached the end of the pier, he addressed them in a rich, deep voice that disturbed her as the voluptuous rising of the tide had done. 'You're Tunde Onu, I'm told,' he said to her father. 'That's right,' said her father. 'The bus conductor told me you take people to the islands,' the man continued.' I'd like to go there if you can take me.' Her father examined the man from head to foot, shrewdly measuring his capacity to pay. Then he said: 'When were you thinking of going?' 'Right away.' 'That's a different story, for my boatman is gone to Badagry and won't be back before nightfall. 'Oh! said the stranger,' That's too bad. You couldn't get someone else instead of him?' 'I would have to think hard', he said gloomily,' for it's not everyone that would do for the job of going with me beyond the bay to the islands at this time of the year.' Shola understood her father's manoeuvre and felt ashamed. 'Manoeuvre' as used in the passage means _______.",
+      "options": [
+        "shrewdness",
+        "cleverness",
+        "attitude",
+        "strategy"
+      ],
+      "answer": null
+    },
+    {
+      "id": 26,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The First DG of the Customs was appointed in the Year",
+      "options": [
+        "2014",
+        "1905",
+        "1891",
+        "1855"
+      ],
+      "answer": null
+    },
+    {
+      "id": 27,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If A/B = 3/5, then 15A = ?",
+      "options": [
+        "10B",
+        "15B",
+        "9B",
+        "25B"
+      ],
+      "answer": null
+    },
+    {
+      "id": 28,
+      "subject": "CURRENT AFFAIRS",
+      "text": "This passage sums up the two problems peculiar to the book trade which make it different from any other trade - the problem of selection and the problem of stocking. How is the book seller to tell what, in an enormous output, will prove saleable, before the full weight of unsold items affects the balance of his business, and how is he, at the same time, to hold a stock large enough to enable the public to choose freely? He may seek to escape from this dilemma by becoming the passive sales representative of large publishing houses or distribution networks, but he is then no longer a book seller. He may take refuge in the sale of safe items to a 83 restricted circle of customers, but he hereby cuts himself off from all that is vital in his trade and dooms himself to mediocrity and stagnation. On the other hand, he may protect his business from the danger of idle stock by speculating on the latest publications, but this is a dangerous game in that it implies a constantly changing clientele: readers remain faithful to their own discoveries and failure to follow up a book, an author or a type of literature means dismissing the public responsible for their success. This brings us back to the fact that books are undefinable. The story is told of a certain country with a great many generals where it was decided to present a rare and valuable edition of an old book to a general about to retire. The old soldier looked at the volume and remarked, 'A book? What's the point? I've already got one!' Of all the solutions proposed for the bookseller's problems, how many actually have positive effects?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "None"
+      ],
+      "answer": null
+    },
+    {
+      "id": 29,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The NCS has _____ total number of zones",
+      "options": [
+        "4",
+        "6",
+        "18",
+        "36"
+      ],
+      "answer": null
+    },
+    {
+      "id": 30,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What is the next number of the following sequence 48, 49, 57, 59, 36, 39, 28, 32, x, y",
+      "options": [
+        "24,18",
+        "24,19",
+        "13,18",
+        "13,19"
+      ],
+      "answer": null
+    },
+    {
+      "id": 31,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as International English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. 115 The author refers to Standard English as ______.",
+      "options": [
+        "a dialectal variant of language that is accepted and recognized",
+        "language spoken by users who are set apart by culture or geography",
+        "an official and accurate usage of language",
+        "accepted and recognized words, expressions and structures"
+      ],
+      "answer": null
+    },
+    {
+      "id": 32,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The minorities Commission appointed in Nigeria in 1957 recommend that",
+      "options": [
+        "More states should be created in the federation",
+        "No more states should created before independence",
+        "Nigeria should revert to a unitary structure",
+        "the legislature should Legislate for the minority areas"
+      ],
+      "answer": null
+    },
+    {
+      "id": 33,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The mean temperature of Monday to Wednesday was 37°C and of Tuesday to Thursday was 34°C, if the temperature on Thursday was 4/5th that of Monday, then what was the temperature on Thursday?",
+      "options": [
+        "36.5°C",
+        "36°C",
+        "35.5°C",
+        "34°C"
+      ],
+      "answer": null
+    },
+    {
+      "id": 34,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each 19 is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as International English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. The author refers to Standard English as ______.",
+      "options": [
+        "a dialectal variant of language that is accepted and recognized",
+        "language spoken by users who are set apart by culture or geography",
+        "an official and accurate usage of language",
+        "accepted and recognized words, expressions and structures"
+      ],
+      "answer": null
+    },
+    {
+      "id": 35,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Who is the Comptroller-General of The Nigerian Customs",
+      "options": [
+        "Mr. Ayodele Diyan",
+        "Alhaji Shehu A. Musa,",
+        "Mr. Henny Etim Duke",
+        "Col. Hameed Ibrahim Ali"
+      ],
+      "answer": null
+    },
+    {
+      "id": 36,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What is the next number of the following sequence 32, 29, 26, 64, 61, 58, 96, 93, ...",
+      "options": [
+        "None of these",
+        "90, 138, 1157",
+        "90, 27, 126",
+        "90, 128, 125"
+      ],
+      "answer": null
+    },
+    {
+      "id": 37,
+      "subject": "CURRENT AFFAIRS",
+      "text": "As the stranger approached, Shola noticed that he was handsome and her excitement increased. It was of such a man she had dreamt. He had a fine, arrogant carriage, like a soldier or someone in authority. When he reached the end of the pier, 51 he addressed them in a rich, deep voice that disturbed her as the voluptuous rising of the tide had done. 'You're Tunde Onu, I'm told,' he said to her father. 'That's right,' said her father. 'The bus conductor told me you take people to the islands,' the man continued.' I'd like to go there if you can take me.' Her father examined the man from head to foot, shrewdly measuring his capacity to pay. Then he said: 'When were you thinking of going?' 'Right away.' 'That's a different story, for my boatman is gone to Badagry and won't be back before nightfall. 'Oh! Said the stranger,' that’s too bad. You couldn't get someone else instead of him?' 'I would have to think hard', he said gloomily,' for it's not everyone that would do for the job of going with me beyond the bay to the islands at this time of the year.' Shola understood her father's manoeuvre and felt ashamed. Which of the following is NOT true of the passage?",
+      "options": [
+        "Shola did not approve of her father's behaviour towards the stranger.",
+        "Shola's father could row the stranger to the island alone if he so wished.",
+        "Shola's father exaggerated the difficulties in order to raise his fee.",
+        "Tunde Onu's boatman is the only man who knows how to sail beyond the bay to"
+      ],
+      "answer": null
+    },
+    {
+      "id": 38,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The early duty of The Customs was primarily ________",
+      "options": [
+        "chasing of thieves",
+        "collection of inland Revenue",
+        "sending crime reports to the government",
+        "publicizing the country’s G.D.P"
+      ],
+      "answer": null
+    },
+    {
+      "id": 39,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A Pipe can fill in 20 minutes and Pipe B in 30 mins and Pipe C can empty the same in 40 mins. If all of them work together, find the time taken to fill the tank?",
+      "options": [
+        "140/7 mins",
+        "120/6 mins",
+        "80/6 mins",
+        "120/7 min"
+      ],
+      "answer": null
+    },
+    {
+      "id": 40,
+      "subject": "CURRENT AFFAIRS",
+      "text": "This passage sums up the two problems peculiar to the book trade which make it different from any other trade - the problem of selection and the problem of stocking. How is the book seller to tell what, in an enormous output, will prove saleable, before the full weight of unsold items affects the balance of his business, and how is he, at the same time, to hold a stock large enough to enable the public to choose freely? He may seek to escape from this dilemma by becoming the passive sales representative of large publishing houses or distribution networks, but he is then no longer a book seller. He may take refuge in the sale of safe items to a restricted circle of customers, but he hereby cuts himself off from all that is vital in his trade and dooms himself to mediocrity and stagnation. On the other hand, he may protect his business from the danger of idle stock by speculating on the latest publications, but this is a dangerous game in that it implies a constantly changing clientele: readers remain faithful to their own discoveries and 84 failure to follow up a book, an author or a type of literature means dismissing the public responsible for their success. This brings us back to the fact that books are undefinable. The story is told of a certain country with a great many generals where it was decided to present a rare and valuable edition of an old book to a general about to retire. The old soldier looked at the volume and remarked, 'A book? What's the point? I've already got one!' The story of the old soldier and the book in the passage is an illustration of the point that _____.",
+      "options": [
+        "the general had already got a book",
+        "a book is of interest only to one who values it",
+        "soldiers do not like to read books",
+        "booksellers face a real dilemma because of constantly changing clientele"
+      ],
+      "answer": null
+    },
+    {
+      "id": 41,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Zonal division of The NCS is according to the number of ______",
+      "options": [
+        "Geo-political Zones",
+        "States in the Country",
+        "States that are along the national boarder",
+        "None of the above"
+      ],
+      "answer": null
+    },
+    {
+      "id": 42,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the value of 464 ÷ (16 × 2.32)",
+      "options": [
+        "12.5",
+        "14.5",
+        "10.5",
+        "8.5"
+      ],
+      "answer": null
+    },
+    {
+      "id": 43,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Standard English refers to the authoritative and correct usage of the language, the medium of expression for government and education. Its opposite is a dialectal variant of the language, that is, accepted and recognised words, expressions and structures peculiar to a smaller group of language users who are generally set apart from standard usage by cultural group or geographical region. For example, Nigerian, American, Irish and British English differ from one another in many respects and each is identifiable, yet in every case the standard variety approaches a single and hypothetical classification known as international English. As one moves towards informality and away from the observance of strict rules, emphasis falls on the differences between dialects. In addition to American English being distinguishable from British English, it is also true that British English is not uniform within the United Kingdom. The level of formality is determined by education and aspiration, while dialects vary from region to region. One characteristic of a dialect as mentioned in the passage is ______.",
+      "options": [
+        "informality",
+        "possession of various forms",
+        "distinction from British English",
+        "restricted area of usage"
+      ],
+      "answer": null
+    },
+    {
+      "id": 44,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The average number of visitors of a library in the first 4 days of a week was 58. The average for the 2nd, 3rd, 4th and 5th days was 60.If the number of visitors on the 1st 4 and 5th days were in the ratio 7:8 then what is the number of visitors on the 5th day of the library?",
+      "options": [
+        "18",
+        "64",
+        "58",
+        "56"
+      ],
+      "answer": null
+    },
+    {
+      "id": 45,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The politician was given a TUMULTOUS welcome when he came to address the rally.",
+      "options": [
+        "pleasant",
+        "noisy",
+        "discouraging",
+        "strange"
+      ],
+      "answer": null
+    },
+    {
+      "id": 46,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Who is the current president of Nigeria?",
+      "options": [
+        "Obasanjo",
+        "Saraki",
+        "Buhari",
+        "Jonathan"
+      ],
+      "answer": null
+    },
+    {
+      "id": 47,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Area of a square is given as 12800 sq miles, find the time taken by a lady to move across a diagonal with speed of 15 miles per hour. M",
+      "options": [
+        "8 hours",
+        "9 hours",
+        "8.5 hours",
+        "10 hours"
+      ],
+      "answer": null
+    },
+    {
+      "id": 48,
+      "subject": "CURRENT AFFAIRS",
+      "text": "As the stranger approached, Shola noticed that he was handsome and her excitement increased. It was of such a man she had dreamt. He had a fine, arrogant carriage, like a soldier or someone in authority. When he reached the end of the pier, he addressed them in a rich, deep voice that disturbed her as the voluptuous rising of the tide had done. 52 'You're Tunde Onu, I'm told,' he said to her father. 'That's right,' said her father. 'The bus conductor told me you take people to the islands,' the man continued.' I'd like to go there if you can take me.' Her father examined the man from head to foot, shrewdly measuring his capacity to pay. Then he said: 'When were you thinking of going?' 'Right away.' 'That's a different story, for my boatman is gone to Badagry and won't be back before nightfall. 'Oh! said the stranger,' That's too bad. You couldn't get someone else instead of him?' 'I would have to think hard', he said gloomily,' for it's not everyone that would do for the job of going with me beyond the bay to the islands at this time of the year.' Shola understood her father's manoeuvre and felt ashamed. Which of the following is true of the stranger in the passage?",
+      "options": [
+        "He was a good looking man with a deep voice, but very proud.",
+        "He was familiar with the people on the island.",
+        "He was a fine gentleman in need of help.",
+        "He was too proud to reciprocate Shola's love."
+      ],
+      "answer": null
+    },
+    {
+      "id": 49,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A cabinet system of government is practiced in",
+      "options": [
+        "Britain and Canada",
+        "the soviet union",
+        "all European Countries including Britain",
+        "the United State of America"
+      ],
+      "answer": null
+    },
+    {
+      "id": 50,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What is a percent of b divided by b percent of a?",
+      "options": [
+        "1",
+        "ab/10",
+        "(a+b)/10",
+        "a+ b/a"
+      ],
+      "answer": null
+    },
+    {
+      "id": 51,
+      "subject": "CURRENT AFFAIRS",
+      "text": "This passage sums up the two problems peculiar to the book trade which make it different from any other trade - the problem of selection and the problem of stocking. How is the book seller to tell what, in an enormous output, will prove saleable before the full weight of unsold items affects the balance of his business, and how is he at the same time to hold a stock large enough to enable the public to choose freely? He may seek to escape from this dilemma by becoming the passive sales representative of large publishing houses or distribution networks, but he is then no longer a book seller. He may take refuge in the sale of safe items to a restricted circle of customers, but he hereby cuts himself off from all that is vital in his trade and dooms himself to mediocrity and stagnation. On the other hand, he may protect his business from the danger of idle stock by speculating on the latest publications, but this is a dangerous game in that it implies a constantly changing clientele; readers remain faithful to their own discoveries. Failure to follow up a book, an author or a type of literature means dismissing the public responsible for their success. This brings us back to the fact that books are undefinable. The story is told of a certain country with a great many generals where it was decided to present a rare and valuable edition of an old book to a general about to retire. The old soldier looked at the volume and remarked, 'A book? What's the point? I've already got one!' 85 Books are different from other goods because ______.",
+      "options": [
+        "customers for the book trade are much restricted",
+        "unlike other goods, books are printed",
+        "one cannot tell so easily which books will prove saleable",
+        "books can be kept in stock much longer than other goods"
+      ],
+      "answer": null
+    },
+    {
+      "id": 52,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What is the next number of the following sequence 13, 24, 36, 23, 34, 56, 33, 44, 96, 43, 54, 116",
+      "options": [
+        "53.0",
+        "65.0",
+        "167.0",
+        "169.0"
+      ],
+      "answer": null
+    },
+    {
+      "id": 53,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Being NAIVE, he believed all the stories his friend told him.",
+      "options": [
+        "artless",
+        "indifferent",
+        "difficult",
+        "experienced"
+      ],
+      "answer": null
+    },
+    {
+      "id": 54,
+      "subject": "CURRENT AFFAIRS",
+      "text": "To The NCS, the import of which of the following is NOT prohibited",
+      "options": [
+        "Live Chicken",
+        "Chicken Egg",
+        "Refined Oil",
+        "Motor Vehicle of ten years from manufacture"
+      ],
+      "answer": null
+    },
+    {
+      "id": 55,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Thirty men take 20 days to complete a job working 9 hours a day. How many hour a day should 40 men take in 20 days to complete the job?",
+      "options": [
+        "6 hours/day",
+        "6.5 hours/day",
+        "7 hours/day",
+        "6.75 hours/day"
+      ],
+      "answer": null
+    },
+    {
+      "id": 56,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Mr. Jonah plays the piano with great DEXTERITY.",
+      "options": [
+        "wisdom",
+        "power",
+        "force",
+        "skill"
+      ],
+      "answer": null
+    },
+    {
+      "id": 57,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Who is the current vice president of Nigeria?",
+      "options": [
+        "Osibanjo",
+        "Atiku",
+        "Peter obi",
+        "Namadi sambo"
+      ],
+      "answer": null
+    },
+    {
+      "id": 58,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What should be missing term in the following number series? T 8, 6, 17, 14, 35, 30, 71, 143 S",
+      "options": [
+        "62",
+        "56",
+        "54",
+        "64"
+      ],
+      "answer": null
+    },
+    {
+      "id": 59,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct plural form for the given word: Mouse",
+      "options": [
+        "Mice",
+        "Mouses",
+        "Mices",
+        "Mouese"
+      ],
+      "answer": null
+    },
+    {
+      "id": 60,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A proclamation by the head of state ending a session of parliament is called",
+      "options": [
+        "a dissolution",
+        "an adjournment",
+        "a prorogation",
+        "a devolution"
+      ],
+      "answer": null
+    },
+    {
+      "id": 61,
+      "subject": "CURRENT AFFAIRS",
+      "text": "By observation, we observe that the decimal value of 39/50 is greater than the decimal value of 3/5. So, the fraction must be greater too22 If x = y = 2z and xyz = 256 then what is the value of x?",
+      "options": [
+        "12",
+        "8",
+        "16",
+        "6"
+      ],
+      "answer": null
+    },
+    {
+      "id": 62,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The climate of Nigeria is an ENERVATING one.",
+      "options": [
+        "a debilitating",
+        "a weak",
+        "an invigorating",
+        "a harmonious"
+      ],
+      "answer": null
+    },
+    {
+      "id": 63,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Three coins are tossed. The probability of getting at least one head is----?",
+      "options": [
+        "1/3",
+        "2/5",
+        "3/8",
+        "7/8"
+      ],
+      "answer": null
+    },
+    {
+      "id": 64,
+      "subject": "CURRENT AFFAIRS",
+      "text": "As a result of the terrible sufferings he had undergone, he became very DESPONDENT about the future.",
+      "options": [
+        "mischievous",
+        "agitated",
+        "indignant",
+        "aggressive"
+      ],
+      "answer": null
+    },
+    {
+      "id": 65,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Susan can type 10 pages in 5 minutes. Mary can type 5 pages in 10 minutes. Working together, how many pages can they type in 30 minutes?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "65"
+      ],
+      "answer": null
+    },
+    {
+      "id": 66,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The children were all ears as the teacher narrated the story. This means that they were _____.",
+      "options": [
+        "anxious",
+        "attentive",
+        "restless",
+        "patient"
+      ],
+      "answer": null
+    },
+    {
+      "id": 67,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What Year was The Board of Customs & Excise set up",
+      "options": [
+        "1 June, 1972",
+        "4 April, 1962",
+        "31 January, 1900",
+        "6, May, 1999"
+      ],
+      "answer": null
+    },
+    {
+      "id": 68,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Complete the Series: 3, 10, 20, 27, _____, 44",
+      "options": [
+        "39.0",
+        "37.0",
+        "34.0",
+        "35.0"
+      ],
+      "answer": null
+    },
+    {
+      "id": 69,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct plural form for the given word: brush",
+      "options": [
+        "Brushes",
+        "Brushs",
+        "Brushies",
+        "Brush"
+      ],
+      "answer": null
+    },
+    {
+      "id": 70,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The chairman's verdict REDRESSED the injustice meted out by the secretary.",
+      "options": [
+        "corrected",
+        "criticised",
+        "aggravated",
+        "addressed"
+      ],
+      "answer": null
+    },
+    {
+      "id": 71,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Headquarter office of The NCS is headed by a/an _________",
+      "options": [
+        "Compt",
+        "ACG",
+        "DCG",
+        "Chairman"
+      ],
+      "answer": null
+    },
+    {
+      "id": 72,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A sum was put at simple interest at a certain rate for 2 years Had it been put at 1% higher rate, it would have fetched $24 more. The sum is:",
+      "options": [
+        "$600",
+        "$1200",
+        "$800",
+        "$480"
+      ],
+      "answer": null
+    },
+    {
+      "id": 73,
+      "subject": "CURRENT AFFAIRS",
+      "text": "My friend was reduced to BEGGARLY by various ill-advised business deals.",
+      "options": [
+        "affluence",
+        "penury",
+        "influence",
+        "poverty"
+      ],
+      "answer": null
+    },
+    {
+      "id": 74,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the least number when divided by 7 gives the reminder 6, when divided by 6 gives reminder 5, when divided by 5 gives reminder 4 and so on….",
+      "options": [
+        "419",
+        "319",
+        "257",
+        "299"
+      ],
+      "answer": null
+    },
+    {
+      "id": 75,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Some candidates take examinations in their stride. This means that they ______.",
+      "options": [
+        "prepare hard for them",
+        "do not worry about them",
+        "find them insurmountable",
+        "are familiar with them"
+      ],
+      "answer": null
+    },
+    {
+      "id": 76,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Under What Arm of the Government is The Nigerian Customs",
+      "options": [
+        "Legislative",
+        "Executive",
+        "Judiciary",
+        "None"
+      ],
+      "answer": null
+    },
+    {
+      "id": 77,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If the ratio of production of 3 different companies A,B & C is 4:7:5 and overall production last year was 4 lac tonnes and if each company had an increase of 20% in production level this year what is the production of company B this year? 35",
+      "options": [
+        "2.1 lac tonnes",
+        "1.5 lac tonnes",
+        "3.6 lac tonnes",
+        "2.25 lac tonnes"
+      ],
+      "answer": null
+    },
+    {
+      "id": 78,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct plural form for the given word: child",
+      "options": [
+        "Childs",
+        "Childrens",
+        "Children",
+        "Child"
+      ],
+      "answer": null
+    },
+    {
+      "id": 79,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The early divisions of ‘The Customs and Excise Preventive’ service was ‘Maritime’ and _________",
+      "options": [
+        "Financial",
+        "Transport",
+        "Revenue",
+        "Preventive"
+      ],
+      "answer": null
+    },
+    {
+      "id": 80,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of the following fractions is less than 1/3?",
+      "options": [
+        "22/62",
+        "15/46",
+        "2/3",
+        "1"
+      ],
+      "answer": null
+    },
+    {
+      "id": 81,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Since mortality is the lot of man, argued the preacher, we must all accept death with EQUANIMITY. 86",
+      "options": [
+        "placidity",
+        "uncertainty",
+        "serenity",
+        "anxiety"
+      ],
+      "answer": null
+    },
+    {
+      "id": 82,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Headquarter of Zone B of the NCS is located in _______",
+      "options": [
+        "Benue",
+        "Bauchi",
+        "Kaduna",
+        "P/Harcourt"
+      ],
+      "answer": null
+    },
+    {
+      "id": 83,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The awareness of MORTALITY has always imposed some restraint on man's excesses.",
+      "options": [
+        "celestiality",
+        "eternity",
+        "continuity",
+        "inexistence"
+      ],
+      "answer": null
+    },
+    {
+      "id": 84,
+      "subject": "CURRENT AFFAIRS",
+      "text": "One of these was in existence before the outbreak of the second world war",
+      "options": [
+        "The OAU",
+        "The League of Nations",
+        "The UNO",
+        "The Commonwealth of Nations"
+      ],
+      "answer": null
+    },
+    {
+      "id": 85,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A triangle is made from a rope. The sides of the triangle are 12 cm, 14 cm and 18 cm. What will be the area of the square made from the same rope?",
+      "options": [
+        "196",
+        "324",
+        "121",
+        "144"
+      ],
+      "answer": null
+    },
+    {
+      "id": 86,
+      "subject": "CURRENT AFFAIRS",
+      "text": "My book has become dog-eared through use. This means that _____.",
+      "options": [
+        "the corners of the pages of my book are crumpled",
+        "my book is designed like dog's ears.",
+        "my book is torn.",
+        "my book is indispensable"
+      ],
+      "answer": null
+    },
+    {
+      "id": 87,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What will come in place of question mark in the following equation? 1/4th of 1/2 of 3/4th of 52000 =?",
+      "options": [
+        "4875",
+        "4857",
+        "4785",
+        "4865"
+      ],
+      "answer": null
+    },
+    {
+      "id": 88,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Choose the best word/phrase to replace the underlined part in accordance with grammatical usage, wherever necessary. In his middle age even he preferred working hard to amuse himself.",
+      "options": [
+        "Even in his middle age",
+        "In his middle age too",
+        "In his middle age even",
+        "Also in his middle age"
+      ],
+      "answer": null
+    },
+    {
+      "id": 89,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The constitution of the federal republic of Nigeria",
+      "options": [
+        "promotes unity in diversity",
+        "allows for the dominance of the minority ethnic groups",
+        "concentrates governmental power at on one level of government",
+        "ensures the dominance of one political party."
+      ],
+      "answer": null
+    },
+    {
+      "id": 90,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A is twice as good a workman as B and together they finish a piece in 18 days. In how many days will A alone finish the work?",
+      "options": [
+        "20 days",
+        "27 days",
+        "24 days",
+        "16 days"
+      ],
+      "answer": null
+    },
+    {
+      "id": 91,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Osemudiamen complained that while his colleagues were ELEVATED, he was ______.",
+      "options": [
+        "interdicted",
+        "prompted",
+        "suspended",
+        "dismissed"
+      ],
+      "answer": null
+    },
+    {
+      "id": 92,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The supreme organ of the U.N O is the",
+      "options": [
+        "general assembly",
+        "secretary general",
+        "world court",
+        "world bank"
+      ],
+      "answer": null
+    },
+    {
+      "id": 93,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What will be the value of ‘x’ in the following question? 2x + 152 - 332 = 97",
+      "options": [
+        "133",
+        "312",
+        "134",
+        "130"
+      ],
+      "answer": null
+    },
+    {
+      "id": 94,
+      "subject": "CURRENT AFFAIRS",
+      "text": "By the time we were due to ____ the following day, everybody heaved a sigh of relief.",
+      "options": [
+        "check out",
+        "leaving",
+        "check off",
+        "check on"
+      ],
+      "answer": null
+    },
+    {
+      "id": 95,
+      "subject": "CURRENT AFFAIRS",
+      "text": "An important advantage of creating more constitution in a federal state is to",
+      "options": [
+        "Enhance the People participation",
+        "Enable ambitious Politicians gain political power",
+        "Make the states gain more power from the federal",
+        "Curb the excess of the federal government."
+      ],
+      "answer": null
+    },
+    {
+      "id": 96,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the largest number which gives out remainders 2 and 5 respectively when used to divide 80 and 122 .",
+      "options": [
+        "19",
+        "17",
+        "13",
+        "Infinite number of solutions"
+      ],
+      "answer": null
+    },
+    {
+      "id": 97,
+      "subject": "CURRENT AFFAIRS",
+      "text": "His decision to reconcile with his former agent paid off. This means that the reconciliation _____.",
+      "options": [
+        "yielded positive results",
+        "cost him a lot of money",
+        "was successful",
+        "caused him some trouble."
+      ],
+      "answer": null
+    },
+    {
+      "id": 98,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Representative democracy is best characteristic by",
+      "options": [
+        "free elections and proper registers of voters",
+        "a politically educated electorate",
+        "rule by the interest group",
+        "proper constituencies and a real choice of candidates"
+      ],
+      "answer": null
+    },
+    {
+      "id": 99,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What approximate value will come in place of question mark (?) in the following question? (You are not expected to calculate the exact value) [(7.99)2 - (13.001)2 + (4.01)3] 2 = ?",
+      "options": [
+        "-1800",
+        "1450",
+        "-1680",
+        "1681"
+      ],
+      "answer": null
+    },
+    {
+      "id": 100,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct plural form for the given word: radius",
+      "options": [
+        "Radiuses",
+        "Radii",
+        "Radiis",
+        "Radia"
+      ],
+      "answer": null
+    },
+    {
+      "id": 101,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The transfer of authority to local government council is known as",
+      "options": [
+        "delegation",
+        "fusion",
+        "fragmentation",
+        "devolution"
+      ],
+      "answer": null
+    },
+    {
+      "id": 102,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If on an item a company gives 25% discount, they earn 25% profit. If they now give 10% discount, then what is the profit percentage?",
+      "options": [
+        "40%",
+        "55%",
+        "35%",
+        "30%"
+      ],
+      "answer": null
+    },
+    {
+      "id": 103,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Identify the synonym of the given word Zest",
+      "options": [
+        "pleasure",
+        "distaste",
+        "flop",
+        "encircles"
+      ],
+      "answer": null
+    },
+    {
+      "id": 104,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Traditional rulers were restricted to ceremonial rules by the local government reforms of",
+      "options": [
+        "1966",
+        "1976",
+        "1984",
+        "1987"
+      ],
+      "answer": null
+    },
+    {
+      "id": 105,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A man has 3 shirts, 4 pairs of trousers and 6 ties. What are the numbers of ways in which he can dress himself with a combination of all the three? 102",
+      "options": [
+        "72",
+        "36",
+        "54",
+        "120"
+      ],
+      "answer": null
+    },
+    {
+      "id": 106,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The man who had been seriously ill was CONVALESCING at a sea-side resort.",
+      "options": [
+        "regaining health",
+        "deteriorating in health",
+        "recuperating",
+        "relaxing"
+      ],
+      "answer": null
+    },
+    {
+      "id": 107,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If a and b are positive integers and (a-b)/3.5 = 4/7, then",
+      "options": [
+        "b < a",
+        "b > a",
+        "b = a",
+        "b >= a"
+      ],
+      "answer": null
+    },
+    {
+      "id": 108,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Incoming students are expected to start registration immediately to avoid bottlenecks. This means they are expected to start registration immediately to avoid ______.",
+      "options": [
+        "being arrested",
+        "being embarrassed by the school authority",
+        "forfeiting the admission",
+        "unnecessary delay"
+      ],
+      "answer": null
+    },
+    {
+      "id": 109,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Chairman of the Nigerian Custom Service Board is same as the __________ 29",
+      "options": [
+        "Minister of Finance",
+        "Head of The Customs Service",
+        "Comptroller General of Customs",
+        "President of Nigeria"
+      ],
+      "answer": null
+    },
+    {
+      "id": 110,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If 9x - 3y = 12 and 3x - 5y = 7 then 6x - 2y = ?",
+      "options": [
+        "-5",
+        "4",
+        "2",
+        "8"
+      ],
+      "answer": null
+    },
+    {
+      "id": 111,
+      "subject": "CURRENT AFFAIRS",
+      "text": "We should regard donations as ______ and not COMPULSORY.",
+      "options": [
+        "mandatory",
+        "necessary",
+        "voluntary",
+        "gratuitous"
+      ],
+      "answer": null
+    },
+    {
+      "id": 112,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Nigeria Customs Service is headed by the _________",
+      "options": [
+        "Head of The Customs Service",
+        "Minister of Customary affairs",
+        "Comptroller-General",
+        "President of The Federal Republic"
+      ],
+      "answer": null
+    },
+    {
+      "id": 113,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What is the selling price of a car if the cost of the car is $60 and a profit of 10% over cost price is earned?",
+      "options": [
+        "$ 66",
+        "$ 54",
+        "$ 72",
+        "$ 64"
+      ],
+      "answer": null
+    },
+    {
+      "id": 114,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Fill in the blank with suitable word. Barking dogs ____ bite.",
+      "options": [
+        "regularly",
+        "rarely",
+        "seldom",
+        "frequently"
+      ],
+      "answer": null
+    },
+    {
+      "id": 115,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Headquarter of Zone C of the NCS is located in",
+      "options": [
+        "Benue",
+        "Bauchi",
+        "Kaduna",
+        "P/Harcourt"
+      ],
+      "answer": null
+    },
+    {
+      "id": 116,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Two dice are thrown together. What is the probability that the sum of the number on the two faces is divisible by 4 or 6?",
+      "options": [
+        "9/16",
+        "½",
+        "11/18",
+        "7/18"
+      ],
+      "answer": null
+    },
+    {
+      "id": 117,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Your extreme patience sometimes INFURIATES me.",
+      "options": [
+        "impresses",
+        "annoys",
+        "frustrates",
+        "amuses"
+      ],
+      "answer": null
+    },
+    {
+      "id": 118,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What will come in place of question mark in the following equation? 283 × 56 + 252 = 20 × ?",
+      "options": [
+        "805",
+        "803",
+        "807",
+        "809"
+      ],
+      "answer": null
+    },
+    {
+      "id": 119,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The beauty of Bimpe's garden shows that she has green fingers. This means that Bimpe ____.",
+      "options": [
+        "always paints her fingers green",
+        "is good at growing plants",
+        "turns everything she touches to green",
+        "likes keeping green objects"
+      ],
+      "answer": null
+    },
+    {
+      "id": 120,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The first Nigerian Chairman of the Board of the NCS is ______",
+      "options": [
+        "Late Mr. James Lawanson",
+        "Mr. Ayodele Diyan",
+        "Alhaji Shehu A. Musa,",
+        "Mr. Henny Etim Duke"
+      ],
+      "answer": null
+    },
+    {
+      "id": 121,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the 25th word if the word JACKED is arranged in dictionary order….",
+      "options": [
+        "ACDEJK",
+        "ADCEJK",
+        "AECDJK",
+        "AEDCJK"
+      ],
+      "answer": null
+    },
+    {
+      "id": 122,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Lou APPROVED of the behavior of his sons during the Church service last week.",
+      "options": [
+        "disliked",
+        "disappointed",
+        "sanctioned",
+        "rejected"
+      ],
+      "answer": null
+    },
+    {
+      "id": 123,
+      "subject": "CURRENT AFFAIRS",
+      "text": "In The NCS, there is/are _________ Deputy Comptroller-General(s)",
+      "options": [
+        "ten",
+        "two",
+        "six",
+        "one"
+      ],
+      "answer": null
+    },
+    {
+      "id": 124,
+      "subject": "CURRENT AFFAIRS",
+      "text": "How many alphabets need to be there in a language if one were to make 1 million 3 letter initials using the alphabets of the language?",
+      "options": [
+        "140",
+        "1000",
+        "10",
+        "120"
+      ],
+      "answer": null
+    },
+    {
+      "id": 125,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Choose an appropriate word from the options to suitably fill the blank in the sentence below so that the sentence makes sense, both grammatically and contextually. Focus on solving the refugee problems and drawing plans for ………… development was less evident.",
+      "options": [
+        "short-range",
+        "sustainable",
+        "needless",
+        "merit"
+      ],
+      "answer": null
+    },
+    {
+      "id": 126,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The sub-division of ‘Zone’ is ________",
+      "options": [
+        "District",
+        "Area Command",
+        "Council",
+        "Region"
+      ],
+      "answer": null
+    },
+    {
+      "id": 127,
+      "subject": "CURRENT AFFAIRS",
+      "text": "In a box, there are 8 red, 7 blue and 6 green balls. One ball is picked up randomly. What is the probability that it is neither red nor green?",
+      "options": [
+        "6/21",
+        "8/21",
+        "7/19",
+        "1/3"
+      ],
+      "answer": null
+    },
+    {
+      "id": 128,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The now famous park was until recently _______ even in the neighbourhood.",
+      "options": [
+        "anonymous",
+        "obscure",
+        "hidden",
+        "infamous"
+      ],
+      "answer": null
+    },
+    {
+      "id": 129,
+      "subject": "CURRENT AFFAIRS",
+      "text": "In The NCS, Which of the following is prohibited for export by Nigeria",
+      "options": [
+        "Timber",
+        "Fruit Juice",
+        "Cocoa Butter",
+        "Soaps and Detergents"
+      ],
+      "answer": null
+    },
+    {
+      "id": 130,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Derrick was all bent on building a new house. He carefully got the blue print of his house designed by his friend Josh, a civil engineer. He wanted to build a room of dimension 27 by 48 ft and lay tiles in this room. Each tile was of dimension 2 by 3 ft. How many tiles should Derrick buy?",
+      "options": [
+        "216",
+        "125",
+        "264",
+        "64"
+      ],
+      "answer": null
+    },
+    {
+      "id": 131,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Well, it seems Alao got out of bed on the wrong side today. This means that he ______.",
+      "options": [
+        "is in a bad mood",
+        "woke up late",
+        "is extremely excited",
+        "is ill"
+      ],
+      "answer": null
+    },
+    {
+      "id": 132,
+      "subject": "CURRENT AFFAIRS",
+      "text": "While political parties aim at forming a government, pressure groups aim at",
+      "options": [
+        "causing social unrest",
+        "influencing governmental decisions",
+        "controlling nation’s economy",
+        "getting workers to unite"
+      ],
+      "answer": null
+    },
+    {
+      "id": 133,
+      "subject": "CURRENT AFFAIRS",
+      "text": "22, 21, 23, 22, 24, 23, ... What number should come next?",
+      "options": [
+        "25.0",
+        "22.0",
+        "24.0",
+        "26.0"
+      ],
+      "answer": null
+    },
+    {
+      "id": 134,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Usually, Joseph is articulate in his speech, but today he sounds ____",
+      "options": [
+        "clear",
+        "turgid",
+        "timid",
+        "incoherent"
+      ],
+      "answer": null
+    },
+    {
+      "id": 135,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The principle of anonymity of civil servants means that they",
+      "options": [
+        "are not the servant of a particular government",
+        "are trained for the duties they perform",
+        "are credited or blamed for anything they do",
+        "they are seen but not heard"
+      ],
+      "answer": null
+    },
+    {
+      "id": 136,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Three partners started a business with $ 80000. At the end of the year they receive $ 1800, $ 3000 and $ 4800 as profit. Find the investment of the second person.",
+      "options": [
+        "$ 27000",
+        "$ 7030",
+        "$ 8510",
+        "$ 32000"
+      ],
+      "answer": null
+    },
+    {
+      "id": 137,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Choose an appropriate word from the options to suitably fill the blank in the sentence below so that the sentence makes sense, both grammatically and contextually. The groups were feared but at the same time ……. by the locals.",
+      "options": [
+        "revered",
+        "detested",
+        "rebelled",
+        "loathed"
+      ],
+      "answer": null
+    },
+    {
+      "id": 138,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of The following is not a Zonal Location of The NCS",
+      "options": [
+        "Lagos",
+        "Kaduna",
+        "Port/Harcourt",
+        "Enugu"
+      ],
+      "answer": null
+    },
+    {
+      "id": 139,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the ratio of the volumes of a sphere and cone of same radius. Also the height of the cone is twice its radius.",
+      "options": [
+        "3: 1",
+        "4: 3",
+        "4: 1",
+        "2: 1"
+      ],
+      "answer": null
+    },
+    {
+      "id": 140,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Binta SOBBED by the door because she had lost her mother's precious necklace.",
+      "options": [
+        "disguised",
+        "hid",
+        "wept",
+        "laughed"
+      ],
+      "answer": null
+    },
+    {
+      "id": 141,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Under the Presidential system",
+      "options": [
+        "The party with the majority of seat forms the Executive",
+        "There is the principle of collective responsibility",
+        "The president may come from any of the parties",
+        "The states take instruction from the federal government"
+      ],
+      "answer": null
+    },
+    {
+      "id": 142,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Complete the series 2, 7, 22, 67, _ 6",
+      "options": [
+        "128",
+        "100",
+        "202",
+        "156"
+      ],
+      "answer": null
+    },
+    {
+      "id": 143,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Her husband's death has forced her to tighten her belt. This means that she has _____.",
+      "options": [
+        "become more economical",
+        "adjusted her belt",
+        "become very aggressive.",
+        "become very greedy"
+      ],
+      "answer": null
+    },
+    {
+      "id": 144,
+      "subject": "CURRENT AFFAIRS",
+      "text": "When the electorate vote for representatives who in turn vote on their behalf we say it is",
+      "options": [
+        "an indirect election",
+        "an unfair election",
+        "a disputed election",
+        "a rigged electron"
+      ],
+      "answer": null
+    },
+    {
+      "id": 145,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the missing term in the following series: 5, 3, 12, 7, 26, 15, __?",
+      "options": [
+        "47",
+        "27",
+        "108",
+        "31"
+      ],
+      "answer": null
+    },
+    {
+      "id": 146,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The man's first wife is loyal, while the second is ______.",
+      "options": [
+        "unfaithful",
+        "unkind",
+        "selfish",
+        "hostile"
+      ],
+      "answer": null
+    },
+    {
+      "id": 147,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The six registered political parties in Nigeria in 1982 were",
+      "options": [
+        "UPN, NPN, PPA, PPP, NPP, and NAP",
+        "UPN, GNPP, NAP, PRP, NPP, NPN,",
+        "NPN, UPN, NPP, PRP, PPP NNDP,",
+        "NPC, GNPP, PRP, UPN, NPP and PPA"
+      ],
+      "answer": null
+    },
+    {
+      "id": 148,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Mr and Mrs Smith have invited 9 of their friends and their spouses for a party at the Waikiki Beach resort. They stand for a group photograph. If Mr Smith never stands next to Mrs Smith (as he says they are always together otherwise). How many ways the group can be arranged in a row for the photograph?",
+      "options": [
+        "20!",
+        "19! + 18!",
+        "18 × 19!",
+        "2 × 19!"
+      ],
+      "answer": null
+    },
+    {
+      "id": 149,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Choose an appropriate phrase from the options to suitably fill the blank in the sentence below so that the sentence makes sense, both grammatically and contextually. …………………; the logo and the product were repeatedly flashed with jingle that dinned the name into our heads. 88",
+      "options": [
+        "There was a time when visual advertising styles were blatantly direct",
+        "It was this kind of advertising that paved the way",
+        "There was no escape from the bombardment",
+        "Similar products are clubbed together by a brand inspired generic name"
+      ],
+      "answer": null
+    },
+    {
+      "id": 150,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The perimeter of a square and a rectangle is the same. If the rectangle is 12 cm by 10 cm, then by what percentage is the area of the square more than that of the rectangle?",
+      "options": [
+        "1%",
+        "3%",
+        "56%",
+        "12%"
+      ],
+      "answer": null
+    },
+    {
+      "id": 151,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The _____ is used in measuring body temperature.",
+      "options": [
+        "barometer",
+        "odometer",
+        "speedometer",
+        "ammeter"
+      ],
+      "answer": null
+    },
+    {
+      "id": 152,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Public opinion is important because it",
+      "options": [
+        "Tells government what action it must take",
+        "Lets government know what the people want",
+        "Allows Police to manage crisis",
+        "Mothers the minorities in resource lean areas"
+      ],
+      "answer": null
+    },
+    {
+      "id": 153,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Direction: The question below consists of a question and two statements numbered I and II are given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and give answer. What is the rate of interest? I. Simple interest accured on an amount of Rs.215000 in two years is less than the compound interest for the same period by Rs.250 II. Simple interest accured in 10 years is equal to the principal.",
+      "options": [
+        "Data in Statement I along are sufficient to answer the question, while the data in",
+        "Data in Statement II alone are sufficient to answer the question, while the data in",
+        "Data in Statement I alone or in statement II alone are sufficient to answer the",
+        "Data in both the statements I and II are not sufficient to answer the question."
+      ],
+      "answer": null
+    },
+    {
+      "id": 154,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The principal queried our teacher for always taking a French leave. This means that our teacher always ______.",
+      "options": [
+        "travels to France during the holidays",
+        "eats french leaves",
+        "likes going on leave",
+        "leaves the school without permission"
+      ],
+      "answer": null
+    },
+    {
+      "id": 155,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The first Nigerian Chairman of the Board of the NCS was appointed in the Year _______",
+      "options": [
+        "1908",
+        "1955",
+        "1964",
+        "1999"
+      ],
+      "answer": null
+    },
+    {
+      "id": 156,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The problems below contain a question and two statements giving certain data. You have to decide whether the data given in the statements are sufficient for answering the questions. Was David early, on time or late for work? 37 (I) He thought his watch was 10 minutes fast. (II) Actually his watch was 5 minutes slow.",
+      "options": [
+        "If statement (I) alone is sufficient but statement (II) alone is not sufficient.",
+        "If statement (II) alone is sufficient but statement (I) alone is not sufficient.",
+        "If both statements together are sufficient but neither of statements alone is",
+        "If both together are not sufficient."
+      ],
+      "answer": null
+    },
+    {
+      "id": 157,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The pastor decided to EXORCISE the evil spirit as the afflicted member of his congregation cried for help.",
+      "options": [
+        "expel",
+        "drive",
+        "invite",
+        "charm"
+      ],
+      "answer": null
+    },
+    {
+      "id": 158,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of the following is not an assigned unit under the NCS _________",
+      "options": [
+        "Security and Smuggler arrest unit",
+        "Enforcement, Investigation, and Inspection unit",
+        "Finance Administration and Technical Service unit",
+        "Tariff & Trade unit"
+      ],
+      "answer": null
+    },
+    {
+      "id": 159,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What should come in place of question mark '?' in the following number series? 121, 112, 97, 91, 86",
+      "options": [
+        "102",
+        "108",
+        "99",
+        "104"
+      ],
+      "answer": null
+    },
+    {
+      "id": 160,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Read the sentence to find out whether there is any error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer. If there is no error, the answer is (5). Ignore errors of punctuation, if any. No sooner had (1)/ he begun to speak (2)/ when the opposition members (3)/ started shouting slogans. (4)/ No error (5)",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": null
+    },
+    {
+      "id": 161,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The NCS has _______ area commands",
+      "options": [
+        "25",
+        "30",
+        "36",
+        "5"
+      ],
+      "answer": null
+    },
+    {
+      "id": 162,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Six friends decide to share a big cake. Since all of them like the cake, they begin quarrelling who gets to first cut and have a piece of the cake. One friend suggests that they have a blindfold friend choose from well shuffled set of cards numbered one to six. You check and find that this method works as it should simulate a fair throw of a die. You check by performing multiple simultaneous trials of picking the cards blindfold and throwing a die. You note that the number shown by the method of picking up a card and throwing a real world die, sums to a number between 2 and 12. Which total would be likely to appear more often – 8, 9 or 10?",
+      "options": [
+        "8",
+        "All are equally likely",
+        "9",
+        "10"
+      ],
+      "answer": null
+    },
+    {
+      "id": 163,
+      "subject": "CURRENT AFFAIRS",
+      "text": "What do you intend to do with these inanimate objects? 119",
+      "options": [
+        "lively",
+        "fascinating",
+        "precious",
+        "lifeless"
+      ],
+      "answer": null
+    },
+    {
+      "id": 164,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Bicameral legislature exists",
+      "options": [
+        "Where two cameras are used to monitor court proceedings",
+        "To prevent the concentration of power on legislative house",
+        "To provide jobs for more politicians",
+        "To ensure that just laws are passed"
+      ],
+      "answer": null
+    },
+    {
+      "id": 165,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The least number which should be added to 2497 so that the sum is exactly divisible by 5, 6, 4 and 3 is:",
+      "options": [
+        "23.0",
+        "13.0",
+        "3.0",
+        "33.0"
+      ],
+      "answer": null
+    },
+    {
+      "id": 166,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of the following phrases (1), (2), (3), (4) given below in the statement should replace the phrase printed in bold in the sentence to make it grammatically correct? If the sentence is correct as it is given and ‘No Correction is required’, mark (5) as the answer. Our neighbours are always trying to keep up with our lifestyle.",
+      "options": [
+        "to keep on",
+        "to keep at",
+        "to keeping on",
+        "to keep off"
+      ],
+      "answer": null
+    },
+    {
+      "id": 167,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The first Director of the Department of Customs and Excise is _________",
+      "options": [
+        "Alhaji Shehu A. Musa,",
+        "Snr. James Bruce",
+        "Mr. Kunle Bankole",
+        "Mr. Idris Johnson"
+      ],
+      "answer": null
+    },
+    {
+      "id": 168,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Three cards are drawn at random from an ordinary pack of cards. Find the probability that they will consist of a king, a queen and an ace.",
+      "options": [
+        "48/14785",
+        "48/16575",
+        "22/8750",
+        "154/23584"
+      ],
+      "answer": null
+    },
+    {
+      "id": 169,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The winner of the wrestling contest was commended for his tenacity.",
+      "options": [
+        "strength",
+        "wisdom",
+        "doggedness",
+        "gentility"
+      ],
+      "answer": null
+    },
+    {
+      "id": 170,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Assistant Comptroller-Generals are higher in rank than the Deputy Comptroller-Generals",
+      "options": [
+        "True",
+        "False",
+        "They are equal",
+        "It depends"
+      ],
+      "answer": null
+    },
+    {
+      "id": 171,
+      "subject": "CURRENT AFFAIRS",
+      "text": "In 1988, a kg of paper was sold at Rs25/-. If the paper rate increases at 1.5% more than the inflation rate which is 6.5% a year, then what will be the cost of a kg of paper after 2 years?",
+      "options": [
+        "28.8",
+        "29.8",
+        "29.16",
+        "27.5"
+      ],
+      "answer": null
+    },
+    {
+      "id": 172,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Pick out the most effective word from the given words to fill in the blank to make the sentence meaningfully complete. His interest in the study of human behavior is indeed very..............",
+      "options": [
+        "strong",
+        "large",
+        "broad",
+        "vast"
+      ],
+      "answer": null
+    },
+    {
+      "id": 173,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Indirect rule refers to situation in which",
+      "options": [
+        "the rulers are subject to the supreme laws of the land.",
+        "Laws are supreme",
+        "The judiciary is independent",
+        "The British authority rule through our local elites"
+      ],
+      "answer": null
+    },
+    {
+      "id": 174,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the missing number in the given sequence: 1,2,3, 5,13, 21,",
+      "options": [
+        "8,34",
+        "10,26",
+        "9,25",
+        "9,32"
+      ],
+      "answer": null
+    },
+    {
+      "id": 175,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Environmentalists around the world fight to PRESERVE the world's natural beauty and resources for future generations to come.",
+      "options": [
+        "divert",
+        "safeguard",
+        "conserve",
+        "destroy"
+      ],
+      "answer": null
+    },
+    {
+      "id": 176,
+      "subject": "CURRENT AFFAIRS",
+      "text": "To The NCS, it is forbidden to export all of the following except______",
+      "options": [
+        "Raw hides and skin",
+        "Bottled Drinks",
+        "Maize",
+        "Scrap Metals"
+      ],
+      "answer": null
+    },
+    {
+      "id": 177,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Find the number of sides of a regular convex polygon whose interior angle is 40 degrees?",
+      "options": [
+        "5",
+        "9",
+        "4",
+        "6"
+      ],
+      "answer": null
+    },
+    {
+      "id": 178,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct tense. Kiran had been working in a bank for some years.",
+      "options": [
+        "Simple past",
+        "Past continuous",
+        "Past perfect continuous",
+        "Past perfect."
+      ],
+      "answer": null
+    },
+    {
+      "id": 179,
+      "subject": "CURRENT AFFAIRS",
+      "text": "An election which is conducted to fill a vacant seat in a legislature is called a",
+      "options": [
+        "by election",
+        "general election",
+        "referendum",
+        "plebiscite"
+      ],
+      "answer": null
+    },
+    {
+      "id": 180,
+      "subject": "CURRENT AFFAIRS",
+      "text": "There are two boxes, one containing 10 red balls and the other containing 10 green balls. You are allowed to move the balls between the boxes so that when you choose a box at random and a ball at random from the chosen box, the probability of getting a red ball is maximized. This maximum probability is:",
+      "options": [
+        "1/2",
+        "14/19",
+        "37/38",
+        "3/4"
+      ],
+      "answer": null
+    },
+    {
+      "id": 181,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The boss made a CLEAN SWEEP of all the old hands in the office.",
+      "options": [
+        "The boss completely got rid of all the old hands in the office.",
+        "The boss promoted all the old hands in the office.",
+        "The boss made a ridicule of all the old hands in the office.",
+        "The boss gave a quick charge to all the old hands in the office."
+      ],
+      "answer": null
+    },
+    {
+      "id": 182,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of the following is NOT a pressure group in Nigeria",
+      "options": [
+        "farmers",
+        "the Nigerian union of teachers (NUT)",
+        "Nigeria medical associate (NMA)",
+        "academic staff union of university (ASUU)"
+      ],
+      "answer": null
+    },
+    {
+      "id": 183,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Time and Work George can do a piece of work in 8 hours Paul can do the same work in 10 hours, Hari can do the same work in 12 hours George, Paul and Hari start the same work at 9 am, while George stops at 11 am, the remaining two complete the work. Approximately at what time will the work complete?",
+      "options": [
+        "11.30 am",
+        "12 noon",
+        "12.30 pm",
+        "1 pm"
+      ],
+      "answer": null
+    },
+    {
+      "id": 184,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Comprehension: Below, a passage is given with five blanks labelled (A)-(E). Below the passage, five options are given for each blank. Choose the word that fits each blank most appropriately in the context of the passage, and mark the corresponding answer. 89 In the 1920s, new technology allowed filmmakers to ___(A)___to each film a soundtrack of speech, music and sound effects ___(B)___ with the action on the screen. These sound films were initially distinguished by calling them talking pictures, or talkies. The next major step in the development of cinema was the introduction of colour. While the addition of sound to film revolutionized the medium, quickly driving ___(C)___ silent movies, colour was adopted more gradually. The public was relatively indifferent to colour photography as opposed to black-and-white. But as colour processes improved and became as ___(D)___ as black-and-white film, more and more movies were filmed in colour after the end of World War II, as the industry in America came to view colour as an essential to attracting audiences in its competition with television, which remained a black-and-white medium until the mid- 60s. By the end of the 1960s, colour had become the ___(E)___for filmmakers. Which of the following words most appropriately fits the blank labelled (A)?",
+      "options": [
+        "Give",
+        "Attach",
+        "Present",
+        "Take"
+      ],
+      "answer": null
+    },
+    {
+      "id": 185,
+      "subject": "CURRENT AFFAIRS",
+      "text": "An important principle of the civil service is",
+      "options": [
+        "Authoritarianism",
+        "Anonymity",
+        "Nepotism",
+        "Partisanship"
+      ],
+      "answer": null
+    },
+    {
+      "id": 186,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A man buys 12 litres of Solution A which contains 20% of the liquid and the rest is water. He then mixes it with 10 litres of another Solution B with 30% of liquid. What is the % of water in the new mixture?",
+      "options": [
+        "24.55 %",
+        "75.45 %",
+        "75.90 %",
+        "24.50 %"
+      ],
+      "answer": null
+    },
+    {
+      "id": 187,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Looking after many active little children is a LABORIOUS task.",
+      "options": [
+        "compulsory",
+        "easy",
+        "hard",
+        "simple"
+      ],
+      "answer": null
+    },
+    {
+      "id": 188,
+      "subject": "CURRENT AFFAIRS",
+      "text": "3 types of chickens: Baby chickens cost 5 cents, hen chickens cost 3 dollars, and rooster chickens cost 5 dollars Buy 100 chickens for 100 dollars How many will you have from each?",
+      "options": [
+        "20, 9, 71",
+        "70, 3, 27",
+        "18, 2, 80",
+        "80, 2, 18"
+      ],
+      "answer": null
+    },
+    {
+      "id": 189,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct tense: I had seen him earlier.",
+      "options": [
+        "Past continuous",
+        "Past perfect",
+        "Past perfect continuous",
+        "Future perfect"
+      ],
+      "answer": null
+    },
+    {
+      "id": 190,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of these countries does NOT operate a federal constitution",
+      "options": [
+        "USA",
+        "Nigeria",
+        "Canada",
+        "France"
+      ],
+      "answer": null
+    },
+    {
+      "id": 191,
+      "subject": "CURRENT AFFAIRS",
+      "text": "There is a 5-digit no. Sum of 3 pairs of digits is eleven each. Last digit is 3 times the first one. 3rd digit is 3 less than the second. 4th digit is 4 more than the second one. Find the number. 38",
+      "options": [
+        "25296",
+        "26594",
+        "24569",
+        "26458"
+      ],
+      "answer": null
+    },
+    {
+      "id": 192,
+      "subject": "CURRENT AFFAIRS",
+      "text": "He has been mandated to search for a new candidate for the post.",
+      "options": [
+        "compelled",
+        "convinced",
+        "assigned",
+        "demanded"
+      ],
+      "answer": null
+    },
+    {
+      "id": 193,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The N.C.N.C sent a delegation to London in 1947 to protest against the",
+      "options": [
+        "burns constitution",
+        "Richards constitution",
+        "Littleton constitution",
+        "Macpherson constitution"
+      ],
+      "answer": null
+    },
+    {
+      "id": 194,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If PQRST is a parallelogram what it the ratio of triangle PQS & parallelogram PQRST? 72",
+      "options": [
+        "3/2",
+        "1/3",
+        "4/3",
+        "2/3"
+      ],
+      "answer": null
+    },
+    {
+      "id": 195,
+      "subject": "CURRENT AFFAIRS",
+      "text": "He has been mandated to search for a new candidate for the post.",
+      "options": [
+        "compelled",
+        "convinced",
+        "assigned",
+        "demanded"
+      ],
+      "answer": null
+    },
+    {
+      "id": 196,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Which of these is a core function of The NCS",
+      "options": [
+        "Making of revenue-related laws",
+        "Collection of Revenue i.e. Import and Excise Duties",
+        "Trade Facilitation",
+        "Combating money laundering"
+      ],
+      "answer": null
+    },
+    {
+      "id": 197,
+      "subject": "CURRENT AFFAIRS",
+      "text": "In a simultaneous throw of pair of dice. Find the probability of getting the total more than 7.",
+      "options": [
+        "5/12",
+        "7/12",
+        "1/3",
+        "1/4"
+      ],
+      "answer": null
+    },
+    {
+      "id": 198,
+      "subject": "CURRENT AFFAIRS",
+      "text": "COLLOSAL",
+      "options": [
+        "A break in column",
+        "Gigantic",
+        "Huge waste",
+        "A calamity"
+      ],
+      "answer": null
+    },
+    {
+      "id": 199,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A parliamentary system, who ensures that members are in the house to vote on major issues",
+      "options": [
+        "Party leaders",
+        "Speaker of the House",
+        "Clerk of the House",
+        "Whip"
+      ],
+      "answer": null
+    },
+    {
+      "id": 200,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The sum of two numbers is 45 and their product is 500. The HCF of the numbers is:",
+      "options": [
+        "5",
+        "9",
+        "10",
+        "15"
+      ],
+      "answer": null
+    },
+    {
+      "id": 201,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct tense: She had played carom.",
+      "options": [
+        "Future perfect",
+        "Past perfect",
+        "Present perfect",
+        "Simple present"
+      ],
+      "answer": null
+    },
+    {
+      "id": 202,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The first major reorganization of The NCS took place in _________",
+      "options": [
+        "1990",
+        "1975",
+        "1900",
+        "2012"
+      ],
+      "answer": null
+    },
+    {
+      "id": 203,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Maximum numbers that can be formed using all the 4 digits 6, 4, 8, 1 without repetition and which is divisible by 9?",
+      "options": [
+        "0",
+        "450",
+        "900",
+        "150"
+      ],
+      "answer": null
+    },
+    {
+      "id": 204,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The soldiers RETREATED because their commander was shot.",
+      "options": [
+        "scattered",
+        "surrendered",
+        "separated",
+        "advanced"
+      ],
+      "answer": null
+    },
+    {
+      "id": 205,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A cylinder of diameter 14 cm and height 7 cm is converted into a cone of radius 6 cm. Now, what could be the height of the new shape?",
+      "options": [
+        "28.58 cm",
+        "26.58 cm",
+        "27.48 cm",
+        "27.74 cm"
+      ],
+      "answer": null
+    },
+    {
+      "id": 206,
+      "subject": "CURRENT AFFAIRS",
+      "text": "It was their custom to KEEP AN OPEN HOUSE on Sundays.",
+      "options": [
+        "To welcome visitors.",
+        "To keep the shutters open for proper ventilation.",
+        "To leave the house open to only strangers.",
+        "To put up the house on rent."
+      ],
+      "answer": null
+    },
+    {
+      "id": 207,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Samuel is younger than Rick by 7 years If the ratio of their ages is 7: 9, find the age of Samuel.",
+      "options": [
+        "12.5 years",
+        "24.5 years",
+        "23.5 years",
+        "14.5 years"
+      ],
+      "answer": null
+    },
+    {
+      "id": 208,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A system in which no single person serves as the chief executive is known as",
+      "options": [
+        "Republican",
+        "Revolutionary",
+        "Collegial",
+        "Parliamentary"
+      ],
+      "answer": null
+    },
+    {
+      "id": 209,
+      "subject": "CURRENT AFFAIRS",
+      "text": "If n=4p, where p is a prime number greater than 2, how many different positive even divisors does n have including n?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": null
+    },
+    {
+      "id": 210,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Select the correct plural form for the given word: Country",
+      "options": [
+        "Countrys",
+        "Countryes",
+        "Countries",
+        "Countrees"
+      ],
+      "answer": null
+    },
+    {
+      "id": 211,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The First Director-General of Customs is",
+      "options": [
+        "Mr. T. A. Wall",
+        "M(cid:3) r. Solanke Sodiq",
+        "Sir Isaac Lawal",
+        "Mr Lawson Green"
+      ],
+      "answer": null
+    },
+    {
+      "id": 212,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A two-digit number is 18 less than the square of the sum of its digits. How many such numbers are there?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": null
+    },
+    {
+      "id": 213,
+      "subject": "CURRENT AFFAIRS",
+      "text": "My friend was reduced to BEGGARLINESS by various ill-advised business deals.",
+      "options": [
+        "affluence",
+        "penury",
+        "influence",
+        "poverty"
+      ],
+      "answer": null
+    },
+    {
+      "id": 214,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Where is The NCS headquarters located",
+      "options": [
+        "Wuse, Abuja",
+        "Yaba, Lagos",
+        "Apapa, Lagos",
+        "Kaduna, Kaduna"
+      ],
+      "answer": null
+    },
+    {
+      "id": 215,
+      "subject": "CURRENT AFFAIRS",
+      "text": "23 people are there, they are shaking hands together, how many handshakes possible, if they are in pair of cyclic sequence?",
+      "options": [
+        "250",
+        "252",
+        "242",
+        "253"
+      ],
+      "answer": null
+    },
+    {
+      "id": 216,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Air travel is becoming increasingly popular with travellers who go from one country to another. A look at the international time table of any major airlines such as Pan America or Air France will show hundreds of flights departing at fixed times every week. Besides these scheduled flights, you can travel nowadays on flights arranged by a club for its members which hires an airplane for the journey. Fares on these ____ flights are low because the club ensures that all seats are filled.",
+      "options": [
+        "airline",
+        "private",
+        "popular",
+        "chartered"
+      ],
+      "answer": null
+    },
+    {
+      "id": 217,
+      "subject": "CURRENT AFFAIRS",
+      "text": "Simplify: 78×78×78−45×45×4578×78+78×45+45×45",
+      "options": [
+        "123",
+        "78",
+        "45",
+        "33"
+      ],
+      "answer": null
+    },
+    {
+      "id": 218,
+      "subject": "CURRENT AFFAIRS",
+      "text": "The Preacher warned the congregation against worrying unduly about MUNDANE things.",
+      "options": [
+        "worldly",
+        "celestial",
+        "unimaginable",
+        "immoral"
+      ],
+      "answer": null
+    },
+    {
+      "id": 219,
+      "subject": "CURRENT AFFAIRS",
+      "text": "A social system in which power is derived from control over land is called",
+      "options": [
+        "Oligarchy",
+        "Feudalism",
+        "Socialism",
+        "Welfarism"
+      ],
+      "answer": null
+    }
+  ]
+}

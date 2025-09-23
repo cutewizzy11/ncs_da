@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "set": "set3",
+    "title": "Set 3",
+    "durationMinutes": 60
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "MATHEMATICS",
+      "text": "-------------------------------decides what should be included or left out in a newspaper.",
+      "options": [
+        "Publisher",
+        "Printer",
+        "Editor",
+        "Journalist"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "subject": "MATHEMATICS",
+      "text": "A person who writes for newspapers or magazines is called a----------------",
+      "options": [
+        "Journalist",
+        "Printer",
+        "Editor",
+        "Publisher"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "subject": "MATHEMATICS",
+      "text": "Arrange these sentences in the correct order. i. The passengers got out. ii. The bus stopped at the corner. Iii. They all looked tired after the trip.",
+      "options": [
+        "i, ii, iii",
+        "i, iii, ii",
+        "ii, i, iii",
+        "ii, iii, i"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "subject": "MATHEMATICS",
+      "text": "I went to the --------------------- to watch a play.",
+      "options": [
+        "Stage",
+        "Studio",
+        "Theatre",
+        "Chambers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "subject": "MATHEMATICS",
+      "text": "The lawn tennis match was played on a --------------",
+      "options": [
+        "Court",
+        "Field",
+        "Stadium",
+        "Track"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "subject": "MATHEMATICS",
+      "text": "Which of these can be described as minerals?",
+      "options": [
+        "Calcium, Magnesium, Sulphur",
+        "Gold, Copper, Tin",
+        "Milk, meat, fish",
+        "Coke, Fanta, Mirinda"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "subject": "MATHEMATICS",
+      "text": "I went to the ----------------------- to read and borrow some books.",
+      "options": [
+        "School",
+        "Press",
+        "Stationery",
+        "Library"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "subject": "MATHEMATICS",
+      "text": "The case was heard in the judge’s-------?",
+      "options": [
+        "Court",
+        "Arena",
+        "Cell",
+        "Witness box"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "subject": "MATHEMATICS",
+      "text": "She took rolls of tissue off the ---------in the supermarket.",
+      "options": [
+        "Shelves",
+        "Stalls",
+        "Desk",
+        "Checkout"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "subject": "MATHEMATICS",
+      "text": "He went to the ---------------- to buy some tomatoes to plant.",
+      "options": [
+        "Granary",
+        "Store",
+        "Nursery",
+        "Hatchery"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "subject": "MATHEMATICS",
+      "text": "A doctor who treats animals is a ----------surgeon.",
+      "options": [
+        "Medical",
+        "Veterinary",
+        "Vetinary",
+        "Vettinery"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "subject": "MATHEMATICS",
+      "text": "We have an orange -----------behind our house.",
+      "options": [
+        "Orchard",
+        "Farm",
+        "Garden",
+        "Bed"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "subject": "MATHEMATICS",
+      "text": "The specialist who examines the eye for defects is an ---------------------",
+      "options": [
+        "Optician",
+        "Eye surgeon",
+        "Optometrist",
+        "Opthamologist"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "subject": "MATHEMATICS",
+      "text": "Which of these is odd ?",
+      "options": [
+        "Jigawa",
+        "Kebbi",
+        "Ekiti",
+        "Zamfara"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 15,
+      "subject": "MATHEMATICS",
+      "text": "Pupils are advised to cross the road at---",
+      "options": [
+        "Roundabout",
+        "T junction",
+        "Children crossing",
+        "Zebra crossing"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "subject": "MATHEMATICS",
+      "text": "A system whereby a woman marries more than one man is --------------",
+      "options": [
+        "Monogamy",
+        "Polygamy",
+        "Polyandry",
+        "Not in existence"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "subject": "MATHEMATICS",
+      "text": "Which of the following is never true ?",
+      "options": [
+        "Lizard lay eggs",
+        "Malaria is an airborne disease",
+        "Teachers are rich",
+        "Rice is a cereal"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "subject": "MATHEMATICS",
+      "text": "Which of the following is an airborne disease.",
+      "options": [
+        "cholera",
+        "Influenza",
+        "Dysentery",
+        "Guinea worm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "subject": "MATHEMATICS",
+      "text": "Which of these item does not form part of a first aid box.",
+      "options": [
+        "Blade",
+        "Bandage",
+        "Chloroquine",
+        "Iodine"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "subject": "MATHEMATICS",
+      "text": "All these animals live in water except",
+      "options": [
+        "Frog",
+        "Lizard",
+        "Snake",
+        "Turtle"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "subject": "MATHEMATICS",
+      "text": "Which of these is a communicable disease",
+      "options": [
+        "Bacteria",
+        "Flu",
+        "Malaria",
+        "Dialysis"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "subject": "MATHEMATICS",
+      "text": "Which of the under listed belong to the class Aves?",
+      "options": [
+        "Monkey",
+        "Tadpole",
+        "Eagle",
+        "Rat"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "subject": "MATHEMATICS",
+      "text": "Animals that chew their cud are------",
+      "options": [
+        "Carnivores",
+        "Herbivores",
+        "Omnivores",
+        "Ominivores"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "subject": "MATHEMATICS",
+      "text": "How many faces have a cuboid?",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 25,
+      "subject": "MATHEMATICS",
+      "text": "What is the product of 5Kg 350g and 9?",
+      "options": [
+        "45kg 150g",
+        "14kg 350g",
+        "48kg 150g",
+        "14kg 150g"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "subject": "MATHEMATICS",
+      "text": "If eight and a half tonnes of sugar is sold in bags of 5kg. How many bags are there to sell ?",
+      "options": [
+        "1.7 bags",
+        "17 bags",
+        "170bags",
+        "1700 bags"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 27,
+      "subject": "MATHEMATICS",
+      "text": "A farmer sold his cock at 20% loss. If the cock was sold for ₦21:00 what was the initial worth of the cock?",
+      "options": [
+        "₦27:50",
+        "₦25:20",
+        "₦26:25",
+        "₦20:20"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "subject": "MATHEMATICS",
+      "text": "Write in words the sum of 31,004 and 117, 009.",
+      "options": [
+        "Four hundred and twenty seven thousand and thirteen.",
+        "One hundred and forty eight thousand.",
+        "Fourteen thousand and three",
+        "One hundred and forty eight thousand and thirteen"
+      ],
+      "answer": 0
+    }
+  ]
+}

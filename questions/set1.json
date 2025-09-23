@@ -1,0 +1,11 @@
+{
+  "meta": { "set": 1, "title": "Set 1", "durationMinutes": 60 },
+  "questions": [
+    { "id": 1, "subject": "MATHEMATICS", "text": "What is 12 + 8?", "options": ["18", "20", "22", "24"], "answer": 1 },
+    { "id": 2, "subject": "MATHEMATICS", "text": "Simplify: 3(2x + 4) when x=2", "options": ["12", "18", "24", "30"], "answer": 1 },
+    { "id": 3, "subject": "ENGLISH", "text": "Select the correct option: She ____ to the market yesterday.", "options": ["go", "goes", "went", "gone"], "answer": 2 },
+    { "id": 4, "subject": "ENGLISH", "text": "Fill in the gap: The committee ___ meeting right now.", "options": ["are", "is", "were", "be"], "answer": 1 },
+    { "id": 5, "subject": "CURRENT AFFAIRS", "text": "Who is the current President of Nigeria? (as of 2024)", "options": ["Muhammadu Buhari", "Goodluck Jonathan", "Bola Ahmed Tinubu", "Yemi Osinbajo"], "answer": 2 },
+    { "id": 6, "subject": "ENGLISH", "text": "Comprehension: Read the short passage and answer. Passage: 'The sun was setting as Ada walked home, thinking about the test.' Question: What time of day was it?", "options": ["Morning", "Afternoon", "Evening", "Night"], "answer": 2 }
+  ]
+}
