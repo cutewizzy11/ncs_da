@@ -233,11 +233,11 @@ function onFaceResults(results) {
     faceWidth,
   };
 
-  // Thresholds and counters
-  const BLINK_T = 0.18; // lower means more closed
-  const MOUTH_T = 0.35; // higher means more open
-  const YAW_LEFT_T = -0.08;
-  const YAW_RIGHT_T = 0.08;
+  // Thresholds and counters (relaxed for broader device compatibility)
+  const BLINK_T = 0.22; // higher => easier to detect blink
+  const MOUTH_T = 0.30; // lower => easier to detect mouth open
+  const YAW_LEFT_T = -0.06;
+  const YAW_RIGHT_T = 0.06;
 
   const inc = (k, cond) => { FRState.counters[k] = cond ? Math.min(FRState.counters[k] + 1, 999) : 0; };
   inc('blink', ear < BLINK_T);
@@ -251,7 +251,7 @@ function onFaceResults(results) {
 
   setPrompt(step.text);
 
-  const HIT_FRAMES = 5; // require ~5 consecutive frames
+  const HIT_FRAMES = 3; // fewer frames needed to register action
   if (FRState.counters[step.key] >= HIT_FRAMES) {
     markStepDone(step.key);
     FRState.currentIdx++;
