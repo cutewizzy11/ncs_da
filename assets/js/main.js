@@ -1,10 +1,3 @@
-    const setSelect = document.getElementById('set-select');
-    if (setSelect) {
-      setSelect.value = AppState.setId || 'set1';
-      setSelect.addEventListener('change', () => { AppState.setId = setSelect.value; saveState(); });
-      AppState.setId = setSelect.value;
-      saveState();
-    }
 // Main app flow
 
 const Screens = {
