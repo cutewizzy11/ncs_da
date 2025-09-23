@@ -25,6 +25,17 @@ function sanitizeOptionText(opt) {
   return String(opt).replace(/\bANS(?:WER)?\s*[:\-]*\s*[A-D]\b/gi, '').trim().replace(/[\-:]+\s*$/, '').trim();
 }
 
+function classifyHeuristic(q) {
+  const t = `${q.text} ${q.options.join(' ')}`.toLowerCase();
+  const hasMath = /\b(percent|ratio|probability|simplify|evaluate|triangle|angle|sum|product|difference|lcm|hcf|prime|equation|speed|distance|time|area|volume|perimeter|mean|median|mode|variance|probability|graph|algebra|solve)\b/.test(t) || /[0-9][0-9\/%+\-*x×÷=()]+/.test(t);
+  const hasCA = /\b(nigeria|president|constitution|senate|governor|minister|capital|currency|independence|ecowas|au|united nations|who|imf|cbn|202[0-9]|201[0-9]|state|federal)\b/.test(t);
+  const hasEng = /\b(passage|synonym|antonym|comprehension|grammar|pronoun|adjective|verb|adverb|preposition|clause|phrase|idiom|punctuation|vowel|consonant|essay)\b/.test(t);
+  if (hasMath && !hasCA) return 'MATHEMATICS';
+  if (hasCA && !hasMath) return 'CURRENT AFFAIRS';
+  if (hasEng) return 'ENGLISH';
+  return 'UNASSIGNED';
+}
+
 function partitionQuestions(rawQuestions) {
   const qn = (Array.isArray(rawQuestions) ? rawQuestions : []).map((q, i) => ({
     id: q.id ?? i+1,
@@ -39,55 +50,30 @@ function partitionQuestions(rawQuestions) {
   };
   qn.forEach(q => { (buckets[q.subject] || buckets['UNASSIGNED']).push(q); });
 
-  // target sizes
-  const target = { 'MATHEMATICS': 20, 'ENGLISH': 20, 'CURRENT AFFAIRS': 20 };
+  // Auto-classify UNASSIGNED heuristically into buckets
+  const reassigned = [];
+  for (const q of buckets['UNASSIGNED']) {
+    const cls = classifyHeuristic(q);
+    if (cls !== 'UNASSIGNED') {
+      q.subject = cls;
+      buckets[cls].push(q);
+    } else {
+      reassigned.push(q);
+    }
+  }
+  buckets['UNASSIGNED'] = reassigned; // keep the rest aside (not used to pad other subjects)
 
-  // First, take up to target from each labeled bucket
+  // Strict target sizes: do NOT borrow across subjects
+  const target = { 'MATHEMATICS': 20, 'ENGLISH': 20, 'CURRENT AFFAIRS': 20 };
   const picked = { 'MATHEMATICS': [], 'ENGLISH': [], 'CURRENT AFFAIRS': [] };
   for (const k of Object.keys(picked)) {
     picked[k] = buckets[k].slice(0, target[k]);
   }
 
-  // Fill deficits from UNASSIGNED first
-  for (const k of Object.keys(picked)) {
-    const need = target[k] - picked[k].length;
-    if (need > 0) {
-      picked[k].push(...buckets['UNASSIGNED'].splice(0, need));
-    }
-  }
-
-  // If still deficits, borrow from other subjects' overflow
-  for (const k of Object.keys(picked)) {
-    let need = target[k] - picked[k].length;
-    if (need <= 0) continue;
-    for (const donor of Object.keys(picked)) {
-      if (donor === k) continue;
-      const overflow = buckets[donor].slice(target[donor]);
-      if (overflow.length) {
-        const take = overflow.splice(0, need);
-        picked[k].push(...take);
-        need = target[k] - picked[k].length;
-        if (need <= 0) break;
-      }
-    }
-  }
-
-  // Combine in subject order and ensure 60 length
+  // Combine strictly by subject order; length may be < 60 if a subject is short
   let combined = [...picked['MATHEMATICS'], ...picked['ENGLISH'], ...picked['CURRENT AFFAIRS']];
-  if (combined.length > 60) combined = combined.slice(0, 60);
-  if (combined.length < 60) {
-    // pad from any remaining pools
-    const rest = [
-      ...buckets['MATHEMATICS'].slice(picked['MATHEMATICS'].length),
-      ...buckets['ENGLISH'].slice(picked['ENGLISH'].length),
-      ...buckets['CURRENT AFFAIRS'].slice(picked['CURRENT AFFAIRS'].length),
-      ...buckets['UNASSIGNED']
-    ];
-    combined.push(...rest.slice(0, 60 - combined.length));
-  }
-
-  // Renumber ids sequentially
-  combined = combined.slice(0, 60).map((q, idx) => ({ ...q, id: idx + 1 }));
+  combined = combined.map((q, idx) => ({ ...q, id: idx + 1 }));
+  
   return combined;
 }
 
