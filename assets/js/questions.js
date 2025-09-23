@@ -91,3 +91,50 @@ async function loadQuestionSet(setId = 'set1') {
 }
 
 window.NCSQuestions = { loadQuestionSet };
+
+// SUBJECT MODE: aggregate from all available sets and build exactly 20 per subject (if available)
+async function safeFetch(url) {
+  try {
+    const r = await fetch(url, { cache: 'no-store' });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+async function loadBySubjects() {
+  const raws = [];
+  for (const s of QUESTION_SETS) {
+    const data = await safeFetch(s.file);
+    if (data && Array.isArray(data.questions)) raws.push(...data.questions);
+  }
+  // Normalize
+  const qn = (raws || []).map((q, i) => ({
+    id: q.id ?? i+1,
+    subject: normalizeSubject(q.subject),
+    text: String(q.text || '').trim(),
+    options: (q.options || []).map(sanitizeOptionText),
+    answer: (q.answer ?? null),
+  })).filter(q => q.text && q.options && q.options.length >= 4);
+
+  // Buckets
+  const buckets = { 'MATHEMATICS': [], 'ENGLISH': [], 'CURRENT AFFAIRS': [] };
+  // Try heuristic on unassigned
+  qn.forEach(q => {
+    let s = q.subject;
+    if (s === 'UNASSIGNED') s = classifyHeuristic(q);
+    if (buckets[s]) buckets[s].push({ ...q, subject: s });
+  });
+
+  // Pick up to 20 per subject (no borrowing) in desired order: ENGLISH, MATHEMATICS, CURRENT AFFAIRS
+  const order = ['ENGLISH', 'MATHEMATICS', 'CURRENT AFFAIRS'];
+  let combined = [];
+  for (const k of order) combined.push(...buckets[k].slice(0, 20));
+  combined = combined.map((q, idx) => ({ ...q, id: idx + 1 }));
+
+  return {
+    meta: { set: 'subjects', title: 'By Subjects (20 Eng / 20 Math / 20 CA)', durationMinutes: 60 },
+    questions: combined,
+  };
+}
+
+window.NCSQuestions.loadBySubjects = loadBySubjects;

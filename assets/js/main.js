@@ -191,8 +191,7 @@ function formatTime(secs) {
 
 async function goToReview() {
   // load questions for selected set and open review screen
-  const setId = AppState.setId || 'set1';
-  const data = await NCSQuestions.loadQuestionSet(setId);
+  const data = await NCSQuestions.loadBySubjects();
   if (!data.questions || data.questions.length === 0) {
     alert('No questions found in the selected set. Please choose another set or re-run the PDF converter.');
     return;
@@ -221,8 +220,7 @@ async function startTest() {
   // Use already reviewed data if present; otherwise load
   let data = AppState.questionData;
   if (!data || !data.questions || data.questions.length === 0) {
-    const setId = AppState.setId || 'set1';
-    data = await NCSQuestions.loadQuestionSet(setId);
+    data = await NCSQuestions.loadBySubjects();
     AppState.questionData = data;
   }
   AppState.answers = AppState.answers || {};
