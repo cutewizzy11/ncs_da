@@ -176,3 +176,32 @@ async function loadBySubject(subjectKey = 'ENGLISH') {
 }
 
 window.NCSQuestions.loadBySubject = loadBySubject;
+
+// Mixed mode: aggregate all available sets and return up to 60 randomized questions
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+async function loadMixed60() {
+  const raws = [];
+  for (const s of QUESTION_SETS) {
+    const data = await safeFetch(s.file);
+    if (data && Array.isArray(data.questions)) raws.push(...data.questions);
+  }
+  const qn = (raws || []).map((q, i) => ({
+    id: q.id ?? i+1,
+    subject: normalizeSubject(q.subject),
+    text: String(q.text || '').trim(),
+    options: (q.options || []).map(sanitizeOptionText),
+    answer: (q.answer ?? null),
+  })).filter(q => q.text && q.options && q.options.length >= 4);
+
+  const picked = shuffle(qn.slice()).slice(0, 60).map((q, idx) => ({ ...q, id: idx + 1 }));
+  return { meta: { set: 'mixed60', title: 'Mixed 60 (Randomized)', durationMinutes: 60 }, questions: picked };
+}
+
+window.NCSQuestions.loadMixed60 = loadMixed60;

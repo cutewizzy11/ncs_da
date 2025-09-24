@@ -87,13 +87,6 @@ function formatTime(secs) {
       }
     });
 
-    // Hook subject selector (FR sidebar)
-    const subjSelect = document.getElementById('subject-select');
-    if (subjSelect) {
-      subjSelect.value = AppState.subject || 'ENGLISH';
-      subjSelect.onchange = () => { AppState.subject = subjSelect.value; saveState(); };
-    }
-
     // Start FR placeholder flow
     NCSCam.startFRFlow().then(() => {
       document.getElementById('btn-begin-test').disabled = false;
@@ -198,9 +191,8 @@ function formatTime(secs) {
 })();
 
 async function goToReview() {
-  // load questions for selected subject and open review screen
-  const subj = AppState.subject || 'ENGLISH';
-  const data = await NCSQuestions.loadBySubject(subj);
+  // Mixed 60 mode: aggregate and randomize 60 questions
+  const data = await NCSQuestions.loadMixed60();
   if (!data.questions || data.questions.length === 0) {
     alert('No questions found in the selected set. Please choose another set or re-run the PDF converter.');
     return;
@@ -214,12 +206,7 @@ async function goToReview() {
   showScreen('review');
   document.getElementById('candidate-display-review').textContent = `Candidate: ${AppState.candidateId}`;
 
-  // header subject selector (review)
-  const selSubj = document.getElementById('subject-select-header-review');
-  if (selSubj) {
-    selSubj.value = AppState.subject || 'ENGLISH';
-    selSubj.onchange = async () => { AppState.subject = selSubj.value; saveState(); await goToReview(); };
-  }
+  // no subject selector in Mixed 60 mode
 
   buildNavigationReview();
   renderQuestionReview();
@@ -229,7 +216,7 @@ async function startTest() {
   // Use already reviewed data if present; otherwise load
   let data = AppState.questionData;
   if (!data || !data.questions || data.questions.length === 0) {
-    data = await NCSQuestions.loadBySubject(AppState.subject || 'ENGLISH');
+    data = await NCSQuestions.loadMixed60();
     AppState.questionData = data;
   }
   AppState.answers = AppState.answers || {};
@@ -247,9 +234,9 @@ async function startTest() {
   showScreen('test');
   document.getElementById('candidate-display').textContent = `Candidate: ${AppState.candidateId}`;
 
-  // header set selector (test) – disabled during timing
+  // header label (test)
   const subjLabel = document.getElementById('subject-label-test');
-  if (subjLabel) subjLabel.textContent = (AppState.subject || 'ENGLISH').replace('_', ' ');
+  if (subjLabel) subjLabel.textContent = 'Mixed 60';
 
   // Keep webcam in mini view
   const mini = document.getElementById('video-mini');
