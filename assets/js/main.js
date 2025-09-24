@@ -22,6 +22,7 @@ const AppState = {
   timerSecs: 60 * 60,
   autoSubmitTriggered: false,
   setId: 'set1',
+  subject: 'ENGLISH',
 };
 
 function saveState() { localStorage.setItem('ncs_state', JSON.stringify(AppState)); }
@@ -85,6 +86,13 @@ function formatTime(secs) {
           `noseShift:${dnose.toFixed(3)} base:${bs? 'yes':'no'}`;
       }
     });
+
+    // Hook subject selector (FR sidebar)
+    const subjSelect = document.getElementById('subject-select');
+    if (subjSelect) {
+      subjSelect.value = AppState.subject || 'ENGLISH';
+      subjSelect.onchange = () => { AppState.subject = subjSelect.value; saveState(); };
+    }
 
     // Start FR placeholder flow
     NCSCam.startFRFlow().then(() => {
@@ -190,8 +198,9 @@ function formatTime(secs) {
 })();
 
 async function goToReview() {
-  // load questions for selected set and open review screen
-  const data = await NCSQuestions.loadBySubjects();
+  // load questions for selected subject and open review screen
+  const subj = AppState.subject || 'ENGLISH';
+  const data = await NCSQuestions.loadBySubject(subj);
   if (!data.questions || data.questions.length === 0) {
     alert('No questions found in the selected set. Please choose another set or re-run the PDF converter.');
     return;
@@ -205,11 +214,11 @@ async function goToReview() {
   showScreen('review');
   document.getElementById('candidate-display-review').textContent = `Candidate: ${AppState.candidateId}`;
 
-  // header set selector (review)
-  const sel = document.getElementById('set-select-header-review');
-  if (sel) {
-    sel.value = AppState.setId || 'set1';
-    sel.onchange = async () => { AppState.setId = sel.value; saveState(); await goToReview(); };
+  // header subject selector (review)
+  const selSubj = document.getElementById('subject-select-header-review');
+  if (selSubj) {
+    selSubj.value = AppState.subject || 'ENGLISH';
+    selSubj.onchange = async () => { AppState.subject = selSubj.value; saveState(); await goToReview(); };
   }
 
   buildNavigationReview();
@@ -220,7 +229,7 @@ async function startTest() {
   // Use already reviewed data if present; otherwise load
   let data = AppState.questionData;
   if (!data || !data.questions || data.questions.length === 0) {
-    data = await NCSQuestions.loadBySubjects();
+    data = await NCSQuestions.loadBySubject(AppState.subject || 'ENGLISH');
     AppState.questionData = data;
   }
   AppState.answers = AppState.answers || {};
@@ -239,11 +248,8 @@ async function startTest() {
   document.getElementById('candidate-display').textContent = `Candidate: ${AppState.candidateId}`;
 
   // header set selector (test) – disabled during timing
-  const selHead = document.getElementById('set-select-header');
-  if (selHead) {
-    selHead.value = AppState.setId || 'set1';
-    selHead.disabled = true;
-  }
+  const subjLabel = document.getElementById('subject-label-test');
+  if (subjLabel) subjLabel.textContent = (AppState.subject || 'ENGLISH').replace('_', ' ');
 
   // Keep webcam in mini view
   const mini = document.getElementById('video-mini');

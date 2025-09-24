@@ -138,3 +138,31 @@ async function loadBySubjects() {
 }
 
 window.NCSQuestions.loadBySubjects = loadBySubjects;
+
+// Single-subject loader: returns up to 20 for a chosen subject across all available sets
+async function loadBySubject(subjectKey = 'ENGLISH') {
+  const key = normalizeSubject(subjectKey);
+  const raws = [];
+  for (const s of QUESTION_SETS) {
+    const data = await safeFetch(s.file);
+    if (data && Array.isArray(data.questions)) raws.push(...data.questions);
+  }
+  const qn = (raws || []).map((q, i) => ({
+    id: q.id ?? i+1,
+    subject: normalizeSubject(q.subject),
+    text: String(q.text || '').trim(),
+    options: (q.options || []).map(sanitizeOptionText),
+    answer: (q.answer ?? null),
+  })).filter(q => q.text && q.options && q.options.length >= 4);
+  const picked = [];
+  for (const q of qn) {
+    let s = q.subject;
+    if (s === 'UNASSIGNED') s = classifyHeuristic(q);
+    if (s === key) picked.push({ ...q, subject: key });
+    if (picked.length >= 20) break;
+  }
+  const questions = picked.map((q, idx) => ({ ...q, id: idx + 1 }));
+  return { meta: { set: key.toLowerCase(), title: `${key} (20)`, durationMinutes: 60 }, questions };
+}
+
+window.NCSQuestions.loadBySubject = loadBySubject;
