@@ -155,12 +155,22 @@ async function loadBySubject(subjectKey = 'ENGLISH') {
     answer: (q.answer ?? null),
   })).filter(q => q.text && q.options && q.options.length >= 4);
   const picked = [];
+  // Pass 1: take questions explicitly tagged with the subject
   for (const q of qn) {
-    let s = q.subject;
-    if (s === 'UNASSIGNED') s = classifyHeuristic(q);
-    if (s === key) picked.push({ ...q, subject: key });
+    if (q.subject === key) picked.push({ ...q });
     if (picked.length >= 20) break;
   }
+  // Pass 2: fill from UNASSIGNED where heuristic agrees
+  if (picked.length < 20) {
+    for (const q of qn) {
+      if (q.subject !== 'UNASSIGNED') continue;
+      const cls = classifyHeuristic(q);
+      if (cls === key) picked.push({ ...q, subject: key });
+      if (picked.length >= 20) break;
+    }
+  }
+  // We intentionally do NOT include items where original subject contradicts the requested subject,
+  // even if heuristic suggests otherwise, to avoid cross-subject mixing.
   const questions = picked.map((q, idx) => ({ ...q, id: idx + 1 }));
   return { meta: { set: key.toLowerCase(), title: `${key} (20)`, durationMinutes: 60 }, questions };
 }

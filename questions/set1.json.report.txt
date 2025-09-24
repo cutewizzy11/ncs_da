@@ -1,0 +1,6 @@
+Source PDFs: ['questions\\Q_A\\CA_2024_1.pdf', 'questions\\Q_A\\English_2024_1.pdf', 'questions\\Q_A\\Math_2024_1.pdf']
+Per-file counts: ['CA_2024_1.pdf: 0', 'English_2024_1.pdf: 0', 'Math_2024_1.pdf: 0']
+Output JSON: questions\set1.json
+Total questions: 0
+Issues:
+ - None found

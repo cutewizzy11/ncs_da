@@ -25,6 +25,7 @@ Notes:
 import argparse
 import json
 import re
+import fnmatch
 from pathlib import Path
 from typing import List, Dict, Any
 
@@ -47,15 +48,14 @@ SUBJECT_NORMALIZE = {
 }
 
 
-def extract_text_from_pdfs(paths: List[Path]) -> str:
+def extract_text_from_pdf(path: Path) -> str:
     texts = []
-    for p in paths:
-        with pdfplumber.open(str(p)) as pdf:
-            for page in pdf.pages:
-                try:
-                    texts.append(page.extract_text() or "")
-                except Exception:
-                    pass
+    with pdfplumber.open(str(path)) as pdf:
+        for page in pdf.pages:
+            try:
+                texts.append(page.extract_text() or "")
+            except Exception:
+                pass
     return "\n".join(texts)
 
 
@@ -216,6 +216,14 @@ def main():
     ap.add_argument("--title", default="Set X", help="Set title")
     ap.add_argument("--duration", type=int, default=60, help="Duration in minutes")
     ap.add_argument("--report", help="Validation report path (defaults to <out>.report.txt)")
+    ap.add_argument(
+        "--file-subject",
+        action="append",
+        help=(
+            "Force subject for matching files. Use glob pattern and subject, e.g., "
+            "--file-subject 'English*.pdf=ENGLISH' (can be repeated). Subjects: ENGLISH, MATHEMATICS, CURRENT AFFAIRS"
+        ),
+    )
     args = ap.parse_args()
 
     in_paths: List[Path] = []
@@ -230,17 +238,48 @@ def main():
         raise SystemExit("No input PDFs provided. Use --input files or --input-dir folder.")
     out_path = Path(args.out)
 
-    text = extract_text_from_pdfs(in_paths)
-    # Normalize whitespace and split into lines
-    text = re.sub(r"\r\n?", "\n", text)
-    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    # Build per-file subject overrides
+    override_rules: List[Dict[str, str]] = []
+    if args.file_subject:
+        for rule in args.file_subject:
+            try:
+                pat, subj = rule.split("=", 1)
+                subj = SUBJECT_NORMALIZE.get(subj.strip().upper(), subj.strip().upper())
+                if subj not in {"ENGLISH", "MATHEMATICS", "CURRENT AFFAIRS"}:
+                    raise ValueError
+                override_rules.append({"pattern": pat.strip(), "subject": subj})
+            except Exception:
+                raise SystemExit(f"Invalid --file-subject rule: '{rule}'. Use pattern=SUBJECT. SUBJECT in [ENGLISH, MATHEMATICS, CURRENT AFFAIRS]")
 
-    sections = split_sections(lines)
-    questions, issues = assemble_set(sections)
+    all_questions = []
+    all_issues = []
+    per_file_counts = []
+
+    for p in in_paths:
+        text = extract_text_from_pdf(p)
+        text = re.sub(r"\r\n?", "\n", text)
+        lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+
+        sections = split_sections(lines)
+        qs, issues = assemble_set(sections)
+
+        # Apply subject override if rule matches filename or full path
+        ov = None
+        for r in override_rules:
+            if fnmatch.fnmatch(p.name, r["pattern"]) or fnmatch.fnmatch(str(p), r["pattern"]):
+                ov = r["subject"]
+                break
+        if ov:
+            for q in qs:
+                q["subject"] = ov
+
+        all_questions.extend(qs)
+        all_issues.extend([f"{p.name}: {msg}" for msg in issues])
+        per_file_counts.append(f"{p.name}: {len(qs)}")
 
     # Warn if not 60 questions found
-    if len(questions) != 60:
-        print(f"[warn] Extracted {len(questions)} questions (expected 60). This may be normal until rules are tuned for your PDF format.")
+    if len(all_questions) != 60:
+        print(f"[warn] Extracted {len(all_questions)} questions (expected 60). This may be normal until rules are tuned for your PDF format.")
 
     data = {
         "meta": {
@@ -256,7 +295,7 @@ def main():
                 "options": q["options"],
                 "answer": q["answer"],
             }
-            for i, q in enumerate(questions)
+            for i, q in enumerate(all_questions)
         ],
     }
 
@@ -269,11 +308,12 @@ def main():
     report_path = Path(args.report) if args.report else Path(str(out_path) + ".report.txt")
     with report_path.open("w", encoding="utf-8") as rf:
         rf.write(f"Source PDFs: {[str(p) for p in in_paths]}\n")
+        rf.write(f"Per-file counts: {per_file_counts}\n")
         rf.write(f"Output JSON: {out_path}\n")
         rf.write(f"Total questions: {len(data['questions'])}\n")
         rf.write("Issues:\n")
-        if issues:
-            for it in issues:
+        if all_issues:
+            for it in all_issues:
                 rf.write(f" - {it}\n")
         else:
             rf.write(" - None found\n")
